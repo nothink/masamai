@@ -7,24 +7,24 @@ module.exports = {
   entry: "./src/index.ts",
   output: {
     filename: "index.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist")
   },
-  target: 'node',
-  externals: [ nodeExternals(), ],
-  devtool: 'inline-source-map',
+  target: "node",
+  externals: [nodeExternals()],
+  devtool: "inline-source-map",
   module: {
-      rules: [
-          {
-              loader: 'ts-loader',
-              test: /\.ts$/,
-              exclude: [ /node_modules/ ],
-              options: {
-                  configFile: 'tsconfig.json',
-              },
-          }
-      ]
+    rules: [
+      {
+        loader: "ts-loader",
+        test: /\.ts$/,
+        exclude: [/node_modules/],
+        options: {
+          configFile: "tsconfig.json"
+        }
+      }
+    ]
   },
   resolve: {
-      extensions: ['.ts', '.js']
+    extensions: [".ts", ".js"]
   }
 };
