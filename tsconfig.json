@@ -1,37 +1,29 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "target": "es2018",
-        "module": "commonjs",
-        "sourceMap": true,
-        "allowJs": true,
-        "rootDir": "./src",
-        "outDir": "./dist",
-        "lib": [
-            "es2018",
-            "dom"
-        ],
-        "strict": true,
-        "strictNullChecks": true,
-        "removeComments": true,
-        "esModuleInterop": true,
-        "noImplicitAny": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true,
-        "noUnusedLocals": true,
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
-    },
-    "formatCodeOptions": {
-        "indentSize": 2
-    },
-    "exclude": [
-        "node_modules",
-    ],
-    "include": [
-        "src/*.ts",
-        "src/**/*.ts",
-    ]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2018",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": ["es2018", "dom"],
+    "strict": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 2
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/*.ts", "src/**/*.ts"]
 }

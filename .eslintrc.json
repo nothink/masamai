@@ -1,40 +1,38 @@
 {
-    "extends": [
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "quotes": ["error", "single"]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "extends": [
         "eslint:recommended",
-        "plugin:prettier/recommended"
-    ],
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "env": {
-        "node": true,
-        "es6": true
-    },
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "rules": {
-    },
-    "overrides": [
-        {
-            "files": ["**/*.ts"],
-            "extends": [
-                "eslint:recommended",
-                "plugin:@typescript-eslint/eslint-recommended",
-                "plugin:@typescript-eslint/recommended",
-                "plugin:prettier/recommended",
-                "prettier/@typescript-eslint"
-            ],
-            "parser": "@typescript-eslint/parser",
-            "parserOptions": {
-                "sourceType": "module",
-                "project": "./tsconfig.json"
-            },
-            "plugins": [
-                "@typescript-eslint"
-            ],
-            "rules": {}
-        }
-    ]
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "prettier/@typescript-eslint"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+      },
+      "plugins": ["@typescript-eslint"],
+      "rules": {
+        "quotes": ["error", "single"],
+        "curly": "warn",
+        "semi": ["error", "always"]
+      }
+    }
+  ]
 }
