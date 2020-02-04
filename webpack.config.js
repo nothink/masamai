@@ -1,30 +1,30 @@
-const path = require("path");
-const nodeExternals = require("webpack-node-externals");
+const path = require('path');
+const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
 
-  entry: "./src/server.ts",
+  entry: './src/server.ts',
   output: {
-    filename: "server.js",
-    path: path.resolve(__dirname, "dist")
+    filename: 'server.js',
+    path: path.resolve(__dirname, 'dist'),
   },
-  target: "node",
+  target: 'node',
   externals: [nodeExternals()],
-  devtool: "inline-source-map",
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
-        loader: "ts-loader",
+        loader: 'ts-loader',
         test: /\.ts$/,
         exclude: [/node_modules/],
         options: {
-          configFile: "tsconfig.json"
-        }
-      }
-    ]
+          configFile: 'tsconfig.json',
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: [".ts", ".js"]
-  }
+    extensions: ['.ts', '.js'],
+  },
 };

@@ -105,4 +105,4 @@ dist
 
 yarn.lock
 
-pokeData
+.vscode

@@ -39,7 +39,7 @@ export class PokeService {
 
   public deletePokemon(req: Request, res: Response): void {
     const pokemonID = req.params.id;
-    Pokemon.findByIdAndDelete(pokemonID, (error: Error, deleted) => {
+    Pokemon.findByIdAndDelete(pokemonID, (error: Error, deleted: any) => {
       if (error) {
         res.status(404).send(error);
       }
@@ -52,12 +52,18 @@ export class PokeService {
     const pokemonId = req.params.id;
     // https://stackoverflow.com/questions/33305623/mongoose-create-document-if-not-exists-otherwise-update-return-document-in
     // upsert
-    Pokemon.findByIdAndUpdate(pokemonId, req.body, (error: Error, pokemon) => {
-      if (error) {
-        res.send(error);
+    Pokemon.findByIdAndUpdate(
+      pokemonId,
+      req.body,
+      (error: Error, pokemon: any) => {
+        if (error) {
+          res.send(error);
+        }
+        const message = pokemon
+          ? 'Updated successfully'
+          : 'Pokemon not found :(';
+        res.send(message);
       }
-      const message = pokemon ? 'Updated successfully' : 'Pokemon not found :(';
-      res.send(message);
-    });
+    );
   }
 }

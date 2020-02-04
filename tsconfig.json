@@ -4,26 +4,17 @@
     "target": "es2018",
     "module": "commonjs",
     "sourceMap": true,
-    "allowJs": true,
     "rootDir": "./src",
     "outDir": "./dist",
     "lib": ["es2018", "dom"],
-    "strict": true,
-    "strictNullChecks": true,
-    "removeComments": true,
     "esModuleInterop": true,
-    "noImplicitAny": true,
+    "strict": true,
+    "removeComments": false,
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "moduleResolution": "node"
   },
-  "formatCodeOptions": {
-    "indentSize": 2
-  },
-  "exclude": ["node_modules"],
-  "include": ["src/*.ts", "src/**/*.ts"]
+  "include": ["src/*.ts", "src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
