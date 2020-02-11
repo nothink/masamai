@@ -1,20 +1,28 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "target": "es2018",
     "module": "commonjs",
+    "lib": ["es2018", "dom"],
     "sourceMap": true,
     "rootDir": "./src",
     "outDir": "./dist",
-    "lib": ["es2018", "dom"],
-    "esModuleInterop": true,
-    "strict": true,
     "removeComments": false,
+
+    "strict": true,
+
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "moduleResolution": "node"
+
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {},
+    "types": [],
+    "esModuleInterop": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
   "include": ["src/*.ts", "src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
