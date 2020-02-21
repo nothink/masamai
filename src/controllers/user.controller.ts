@@ -14,7 +14,7 @@ import {
 export class UserController {
   @Get('/users')
   getAll() {
-    return 'This action returns all users';
+    return { test: 'moge' };
   }
 
   @Get('/users/:id')

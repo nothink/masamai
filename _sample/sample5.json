@@ -1,0 +1,185 @@
+{
+  "data": {
+    "page": 676,
+    "list": [
+      {
+        "evolution_stage": 2,
+        "card_group_id": 4677,
+        "sphere_id": 2,
+        "card_id": 13558,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "evolution_stage": 3,
+        "card_group_id": 4677,
+        "sphere_id": 2,
+        "card_id": 13559,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "sphere_id": 1,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/feb0863479170aeba4528ee614ca40ea.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": false,
+        "card_group_id": 4678,
+        "dear": false,
+        "card_id": 13560
+      },
+      {
+        "evolution_stage": 2,
+        "card_group_id": 4678,
+        "sphere_id": 1,
+        "card_id": 13561,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "evolution_stage": 3,
+        "card_group_id": 4678,
+        "sphere_id": 1,
+        "card_id": 13562,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "sphere_id": 3,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/a4995f87f40689c70c27840c0fd884dc.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": true,
+        "card_group_id": 4679,
+        "dear": false,
+        "card_id": 13563
+      },
+      {
+        "sphere_id": 3,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/68ab8ef74dc37d61b8f38caaaa558a18.jpg",
+        "own": true,
+        "evolution_stage": 2,
+        "dated": true,
+        "card_group_id": 4679,
+        "dear": false,
+        "card_id": 13564
+      },
+      {
+        "sphere_id": 3,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/114d0df482aefdc8bfb5df532fff0b84.jpg",
+        "own": true,
+        "evolution_stage": 3,
+        "dated": false,
+        "card_group_id": 4679,
+        "dear": false,
+        "card_id": 13565
+      },
+      {
+        "sphere_id": 2,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/baa513cebc0fc6c0c27db49da626df1b.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": false,
+        "card_group_id": 4680,
+        "dear": false,
+        "card_id": 13566
+      },
+      {
+        "sphere_id": 2,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/f279bf393f194f351abe0bd30691d524.jpg",
+        "own": true,
+        "evolution_stage": 2,
+        "dated": false,
+        "card_group_id": 4680,
+        "dear": false,
+        "card_id": 13567
+      },
+      {
+        "evolution_stage": 3,
+        "card_group_id": 4680,
+        "sphere_id": 2,
+        "card_id": 13568,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "sphere_id": 1,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/3c0e1b82b812325ceb91ed44cfc02d98.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": false,
+        "card_group_id": 4681,
+        "dear": false,
+        "card_id": 13569
+      },
+      {
+        "evolution_stage": 2,
+        "card_group_id": 4681,
+        "sphere_id": 1,
+        "card_id": 13570,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "evolution_stage": 3,
+        "card_group_id": 4681,
+        "sphere_id": 1,
+        "card_id": 13571,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "sphere_id": 3,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/b4783b991b6c371a4c13915035d35dcb.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": false,
+        "card_group_id": 4682,
+        "dear": false,
+        "card_id": 13572
+      },
+      {
+        "sphere_id": 3,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/5cb36f3f2f29c78f41568b467414133c.jpg",
+        "own": true,
+        "evolution_stage": 2,
+        "dated": false,
+        "card_group_id": 4682,
+        "dear": false,
+        "card_id": 13573
+      },
+      {
+        "evolution_stage": 3,
+        "card_group_id": 4682,
+        "sphere_id": 3,
+        "card_id": 13574,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/786c27d0f5d06b186b76e86365cc96e5.jpg"
+      },
+      {
+        "sphere_id": 2,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/aed6ca042ac0b7720e7d464885e681e9.jpg",
+        "own": true,
+        "evolution_stage": 1,
+        "dated": false,
+        "card_group_id": 4683,
+        "dear": false,
+        "card_id": 13575
+      },
+      {
+        "sphere_id": 2,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/0b33a49efa8ebe63389e4a57d36230db.jpg",
+        "own": true,
+        "evolution_stage": 2,
+        "dated": false,
+        "card_group_id": 4683,
+        "dear": false,
+        "card_id": 13576
+      },
+      {
+        "sphere_id": 2,
+        "card_image_url": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/icon/collection/ec751c98f2cf9c023c33d2894e6898ea.jpg",
+        "own": true,
+        "evolution_stage": 3,
+        "dated": false,
+        "card_group_id": 4683,
+        "dear": false,
+        "card_id": 13577
+      }
+    ],
+    "maxPage": 679
+  },
+  "token": "OSZMwP"
+}
