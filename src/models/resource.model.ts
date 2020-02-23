@@ -3,19 +3,16 @@ import Redis from 'ioredis';
 import crypto from 'crypto';
 import { Storage } from '@google-cloud/storage';
 
-import {
-  DEFAULT_REDIS_HOST,
-  DEFAULT_REDIS_PORT,
-  GS_BUCKET_NAME,
-} from '../const';
+import { DEFAULT_REDIS_HOST, DEFAULT_REDIS_PORT, RESOURCES_REDIS_DB, GS_BUCKET_NAME, GS_KEY_FILE_PATH } from '../const';
 
 // 以下はコントローラ読み込み時に単一でインスタンス確保される
 const redis = new Redis({
   port: DEFAULT_REDIS_PORT,
   host: DEFAULT_REDIS_HOST,
+  db: RESOURCES_REDIS_DB,
 });
 const bucket = new Storage({
-  keyFilename: '/Users/nothink/Projects/masamai/config/seio.json',
+  keyFilename: GS_KEY_FILE_PATH,
 }).bucket(GS_BUCKET_NAME);
 
 export default class Resource {
@@ -30,27 +27,20 @@ export default class Resource {
     // URLチェック
     if (
       !url ||
-      ![
-        'c.stat100.ameba.jp',
-        'stat100.ameba.jp',
-        'dqx9mbrpz1jhx.cloudfront.net',
-      ].includes(url.hostname) ||
+      !['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'].includes(url.hostname) ||
       url.pathname.slice(0, 7) !== '/vcard/'
     ) {
       return;
     }
     // オブジェクトキー作成
-    const key =
-      url.pathname.length > 0 && url.pathname.slice(0, 1) === '/'
-        ? url.pathname.slice(1)
-        : '';
+    const key = url.pathname.length > 0 && url.pathname.slice(0, 1) === '/' ? url.pathname.slice(1) : '';
     if (!key) {
       return;
     }
     // オブジェクトキーのハッシュ作成
     const hashed = crypto
       .createHash('sha256')
-      .update(key, 'ascii')
+      .update(key, 'utf8')
       .digest('hex');
     // 以下Redis操作など
     const target = url.origin + url.pathname;
@@ -58,20 +48,26 @@ export default class Resource {
     if (current && current === key) {
       return;
     }
-    const response = await fetch(target);
-    if (!response.ok) {
-      throw new Error(response.toString());
-    }
-    const readable = response.body;
-    const obj = bucket.file(key);
-    const writable = obj.createWriteStream();
-    readable.pipe(writable);
-    const redistatus = await redis.set(hashed, key);
-    if (redistatus !== 'OK') {
-      throw new Error(
-        `Failed to set {"${hashed}": "${key}"}. (status: ${redistatus})`
-      );
-    }
+    // ここまでは await
+
+    // ここからはpromiseでIOを離す
+    fetch(target).then(response => {
+      if (!response.ok) {
+        throw new Error(response.toString());
+      }
+      const readable = response.body;
+      const obj = bucket.file(key);
+      const writable = obj.createWriteStream();
+
+      if (readable && writable) {
+        readable.pipe(writable);
+        redis.set(hashed, key).then(status => {
+          if (status !== 'OK') {
+            throw new Error(`Failed to set {"${hashed}": "${key}"}. (status: ${status})`);
+          }
+        });
+      }
+    });
     return strUrl;
   }
 

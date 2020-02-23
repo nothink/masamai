@@ -1,14 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 // https://qiita.com/yuukive/items/331aa21654bb8b20a34d
-import {
-  JsonController,
-  Param,
-  Body,
-  Get,
-  Post,
-  Put,
-  Delete,
-} from 'routing-controllers';
+import { JsonController, Param, Body, Get, Post, Put, Delete } from 'routing-controllers';
 
 @JsonController()
 export class UserController {
