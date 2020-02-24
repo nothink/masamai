@@ -1,0 +1,95 @@
+{
+  "data": {
+    "collect": { "currentCount": 4527, "totalCount": 13574 },
+    "collectBonusMap": {
+      "bonusFlg": false,
+      "currentLevel": 45,
+      "totalCardCount": 13574,
+      "collectionId": 1,
+      "currentCardCount": 4527
+    },
+    "collectionList": null,
+    "date": { "currentCount": 716, "totalCount": 4527 },
+    "dateBonusMap": {
+      "bonusFlg": false,
+      "bonusList": [
+        {
+          "currentLevel": 9,
+          "bounusFlg": false,
+          "allDateCount": 4527,
+          "currentDateCount": 716,
+          "name": "デート数",
+          "collectionId": 2
+        }
+      ]
+    },
+    "dispCardAllCount": 0,
+    "memoryVisible": true,
+    "page": 1,
+    "pullDownLists": {
+      "clubList": [
+        { "name": "委員会＆団体", "value": "1" },
+        { "name": "運動部", "value": "2" },
+        { "name": "運動部(個人競技)", "value": "3" },
+        { "name": "帰宅部", "value": "4" },
+        { "name": "研究会", "value": "5" },
+        { "name": "文化部", "value": "6" },
+        { "name": "文化部(音楽系)", "value": "7" },
+        { "name": "文化部(日本)", "value": "8" },
+        { "name": "その他", "value": "9" }
+      ],
+      "evolutionStageList": [
+        { "name": "第１進展", "value": "1" },
+        { "name": "第２進展", "value": "2" },
+        { "name": "最終進展", "value": "3" }
+      ],
+      "gradeList": [
+        { "name": "１学年", "value": "1" },
+        { "name": "２学年", "value": "2" },
+        { "name": "３学年", "value": "3" },
+        { "name": "その他", "value": "4" }
+      ],
+      "message": null,
+      "rarityList": [
+        { "name": "N", "value": "1" },
+        { "name": "HN", "value": "2" },
+        { "name": "R", "value": "3" },
+        { "name": "HR", "value": "4" },
+        { "name": "SR", "value": "5" },
+        { "name": "SSR", "value": "6" },
+        { "name": "UR", "value": "7" }
+      ],
+      "sphereList": null,
+      "statusList": [
+        { "name": "ALL", "value": "0" },
+        { "name": "出会い済み", "value": "1" },
+        { "name": "デート済", "value": "2" },
+        { "name": "未デート", "value": "3" },
+        { "name": "好感度MAX", "value": "4" },
+        { "name": "好感度MAX以外", "value": "5" }
+      ],
+      "success": true,
+      "voiceList": [
+        { "name": "ALL", "value": "0" },
+        { "name": "なし", "value": "1" },
+        { "name": "あり", "value": "2" }
+      ]
+    },
+    "pullDownState": {
+      "actorName": null,
+      "clubKeySet": null,
+      "evolutionStageKeySet": null,
+      "gradeKeySet": null,
+      "name": null,
+      "page": 1,
+      "rarityKeySet": null,
+      "sphereType": "ALL",
+      "status": 0,
+      "voice": 0
+    },
+    "sphere": "ALL",
+    "sphereId": 0,
+    "viewCount": 20
+  },
+  "token": "nUhCGq"
+}

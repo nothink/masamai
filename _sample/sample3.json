@@ -1,0 +1,1110 @@
+{
+  "cards": [
+    {
+      "cardId": 13397,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6c86c138281f4de6449bfb2528d283ac.jpg",
+      "name": "[回診の時間]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4623/BATTLE_SKILL_873944a0-bc8f-4282-86a5-fd6d29744eaa.mp3",
+      "word": "ナースコールで呼んでくださいね"
+    },
+    {
+      "cardId": 13181,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/69803d35fa3c7d19aeaf5d06e2889877.jpg",
+      "name": "[歓びの共有]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4551/BATTLE_SKILL_7333f2dc-495d-4c79-b61e-d39adac32204.mp3",
+      "word": "いい出会いがあるといいですね"
+    },
+    {
+      "cardId": 12869,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/2f36ae9a453000992f6c156c75982d87.jpg",
+      "name": "[共に踊る夏]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4447/BATTLE_SKILL_c9462d79-5b89-46ee-b393-130100158958.mp3",
+      "word": "綺麗な思い出にしましょう"
+    },
+    {
+      "cardId": 12623,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/e9f4d9e62c6259236fc76b61cffb063a.jpg",
+      "name": "[いきますよ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4365/BATTLE_SKILL_ebee4eb1-86da-4181-8f77-d71dc56e6764.mp3",
+      "word": "足元が悪いので、気をつけましょう"
+    },
+    {
+      "cardId": 12443,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/4e6903f291ef03a0b1cd7ddb6fc2d55a.jpg",
+      "name": "[思い出の桜]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4301/SCENARIO_GET_48833aae-144b-4349-a014-567dac7e91e6.mp3",
+      "word": "綺麗…　これ、使わせてもらいますね。お礼に、がこん君の分も作っていいですか？　がこん君も、本を開くたびに今年の桜を思い出してくれたら…　あ、い、いえ…！"
+    },
+    {
+      "cardId": 12164,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6177977ad46c1a5f9a3255343b037550.jpg",
+      "name": "[想いを手に]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4208/BATTLE_SKILL_97c0c02a-50c9-411c-a621-34e060de1b59.mp3",
+      "word": "落ち着いてやれば、大丈夫ですよ"
+    },
+    {
+      "cardId": 12080,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/02f23e0561f38f8705480831bc7867e0.jpg",
+      "name": "[夢の一時を]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4180/BATTLE_SKILL_973e596c-3f48-4c85-9498-914a2a90484c.mp3",
+      "word": "憧れの勝利は、もう目の前ですよ"
+    },
+    {
+      "cardId": 11807,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/eadce5e576dd68e6b9e1fa0131b62998.jpg",
+      "name": "[ﾎﾟｶﾎﾟｶ夢心地]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4089/SCENARIO_GET_688e08e1-aef1-4020-8e5a-668790fa17fc.mp3",
+      "word": "あっ、意外と熱いんですね…　いえ、大丈夫です。だんだん、心地良くなってきました…　ん…　はぁ…　こうしていると、じんわり汗が…　ふふ、このまま眠ってしまいそうです。"
+    },
+    {
+      "cardId": 11321,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/a997feb98420f630ab8c1e7ef27930ce.jpg",
+      "name": "[想う一年]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3927/8040_257bad9f-1ea2-4d01-90de-a1e0c4d6b6c6.mp3",
+      "word": "短冊に勝利の願いを込めて"
+    },
+    {
+      "cardId": 11099,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/17c6b4b321ee3b36408481a2db52d1f9.jpg",
+      "name": "[笑顔思い出]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3853/8040_9b6893f4-586a-474b-ac1d-1ef21ecb74b1.mp3",
+      "word": "素敵な思い出にしましょう"
+    },
+    {
+      "cardId": 10991,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/c116db0d6bef28f5935b231e4cef417e.jpg",
+      "name": "[微笑ましく]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3817/8040_31dfa523-9fb4-4813-af2b-8880e72c7933.mp3",
+      "word": "精一杯、お手伝いしますね"
+    },
+    {
+      "cardId": 10730,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/638bcbc799b8158d37f7c95f5b480951.jpg",
+      "name": "[二人静かに]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3730/8040_c40b98b7-ea4c-4fed-aaa9-2251e546b84d.mp3",
+      "word": "寝る前に済ませてしまいましょう"
+    },
+    {
+      "cardId": 10613,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/7fab2b071e9bb6a77a526d14e4b14ce5.jpg",
+      "name": "[少女風景]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3691/8040_74b8ee3f-b9d7-4b7c-9b7a-411c40345c52.mp3",
+      "word": "童心に返って、楽しみましょう"
+    },
+    {
+      "cardId": 10486,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/ab4b89cd6f293613ed576e9635985ec5.jpg",
+      "name": "[憧れた情景]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3648/8040_73d1b6a5-ce4a-476d-b663-21a310b28ff4.mp3",
+      "word": "素敵な思い出を残しましょうね"
+    },
+    {
+      "cardId": 10207,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/48e66dd5ba4ec112b08be00fd9ca355c.jpg",
+      "name": "[あなた色に]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3555/8040_9e70076d-6199-47ce-b891-9f5870caea69.mp3",
+      "word": "勝利を信じて待っていますね"
+    },
+    {
+      "cardId": 10051,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/83f2be21e63af5c7786befda5015fc76.jpg",
+      "name": "[光の海へ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3503/8040_8256cf5a-f828-470a-86d4-4065a4201572.mp3",
+      "word": "勝って、素敵な夢を見ましょうね"
+    },
+    {
+      "cardId": 9797,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/7e30d0068ebfeaacff56ac0ec8161337.jpg",
+      "name": "[山の恵み]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3415/6010_e391ec7c-cf8e-4d18-8787-88ca709099c8.mp3",
+      "word": "わぁ、綺麗…　…冷たくて生き返る？　それじゃあ、私も…　はぁ…　美味しい…　こんなに澄んだ水が待っていてくれるなら、山登りも…　頑張った甲斐がありました。"
+    },
+    {
+      "cardId": 9698,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6e06bd58afdd8be9110b78b056859867.jpg",
+      "name": "[逮捕します]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3382/8040_dedec388-c860-4159-9e11-3511f349edba.mp3",
+      "word": "すばやく確実に捕まえましょう"
+    },
+    {
+      "cardId": 9593,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6800218d54b63e042ec4363d7cdda747.jpg",
+      "name": "[嗚呼、青春]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3347/8040_9ec1fb47-60fb-40df-97ef-c1932ad0fe7c.mp3",
+      "word": "みんなで待ってますね"
+    },
+    {
+      "cardId": 9467,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/56f39988fb62bccc7704e9ac4d8b81f0.jpg",
+      "name": "[周章狼狽]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3305/8040_b4b97e5f-2e6c-48aa-aec2-5f0485571224.mp3",
+      "word": "恥ずかしがらずに、頑張りましょう"
+    },
+    {
+      "cardId": 9188,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/445159a2ab9ae8942ecb6f0e317a6efe.jpg",
+      "name": "[食後の微睡]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3212/8040_0df98301-13f4-40cd-bac6-ccb407697dd5.mp3",
+      "word": "お野菜が冷める前に済ませましょう"
+    },
+    {
+      "cardId": 9119,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/a977c55e7ebe5142dfe65dcb45e384a7.jpg",
+      "name": "[興味の先は]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3189/8040_bde049c7-604f-420e-a0f3-f10b7f36eaf7.mp3",
+      "word": "興味を持ってもらえるように頑張りましょう"
+    },
+    {
+      "cardId": 8933,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/1e944caf5af797c60457185cd1a9bf8a.jpg",
+      "name": "[嬉しい偶然]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3127/8040_d8872d54-a40f-4c57-9990-4fae411a8023.mp3",
+      "word": "閉館までには終わらせましょう"
+    },
+    {
+      "cardId": 8730,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6010fe5a3f8b57ac3c036377b6e16c77.jpg",
+      "name": "[お熱い内に]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3058/8040_0a973531-2d49-4eb5-bc3a-973d5ff49f10.mp3",
+      "word": "お腹いっぱい食べて頑張りましょう"
+    },
+    {
+      "cardId": 8652,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/d30a06edd71e0d28da797976a46efce4.jpg",
+      "name": "[ｳﾄｳﾄと…]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/3032/8040_055d2987-7188-485a-a68c-069bbbe81c11.mp3",
+      "word": "素敵な旅の思い出にしましょうね"
+    },
+    {
+      "cardId": 8523,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/5f2015cd65386e96de8761908081205f.jpg",
+      "name": "[見せたいﾓﾉ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2989/8040_fa52edf6-d3ce-48be-83a1-1f3e31426352.mp3",
+      "word": "一歩ずつ慎重にいきましょう"
+    },
+    {
+      "cardId": 8379,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/2071d4fcf716cd5786d5caee3dc4eeb6.jpg",
+      "name": "[噛みました]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2941/8040_c9cd4c11-42ee-41b7-b8b9-a45843a3890a.mp3",
+      "word": "安全第一でいきましょうね"
+    },
+    {
+      "cardId": 8207,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/833660b22e8f83d555436491743bc37f.jpg",
+      "name": "[精一杯を…]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2884/8040_98f9e12b-2fa4-4482-bee2-2d640d8303f7.mp3",
+      "word": "えっと、その…ファイトですよ〜"
+    },
+    {
+      "cardId": 8092,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/c066da670e9891ee370bec82ade755c3.jpg",
+      "name": "[模範生徒]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2843/6010_3824c89d-5b86-44f3-84cc-7b2a911c0d4d.mp3",
+      "word": "今から、壇上でスピーチをするみたいです。急すぎて何を話せばいいか、頭が真っ白で…　いえ、嬉しくないわけでは…　ただ、やっぱり緊張してしまって…　その…"
+    },
+    {
+      "cardId": 7940,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/8d9aa3e3c630def6c94ef583a5a72760.jpg",
+      "name": "[星降る夜を]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2793/8040_6270c2f6-77fb-48a0-bef8-5a8e93f86a05.mp3",
+      "word": "滑りやすいので、気をつけて"
+    },
+    {
+      "cardId": 7737,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/f45bef39bfbd492ff49287ba783466dd.jpg",
+      "name": "[離れ難し]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2726/8040_a74124ad-91c7-434b-a243-18244149ac1a.mp3",
+      "word": "熱くならずに、冷静に行きましょう"
+    },
+    {
+      "cardId": 7635,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/31fc6fdc90cb886476f55e21b4ee5bb8.jpg",
+      "name": "[戦術書には]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2693/8040_6c555475-e543-4de7-8d08-db512db2cf13.mp3",
+      "word": "相手の戦略を見定めましょうね"
+    },
+    {
+      "cardId": 7362,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/5bef6928624f9a50b2fb1b7cb174cf6c.jpg",
+      "name": "[安心の素は]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2604/8040_853a2ee6-4317-4a47-b32e-5be00f7e59c9.mp3",
+      "word": "勝ったらライスシャワーみたいです"
+    },
+    {
+      "cardId": 7251,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/3e9dc088f5752c702b84b83908ae6a76.jpg",
+      "name": "[定常ﾎﾟｼﾞｼｮﾝ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2568/8040_12e2915d-0015-4233-8e07-d6d1084c88a9.mp3",
+      "word": "遅刻は駄目ですよ？"
+    },
+    {
+      "cardId": 6979,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/595d376c29c52a4e63466156e3098a42.jpg",
+      "name": "[放課後沿線]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2473/8040_52430782-33b8-49c3-b681-f995a5f30b4e.mp3",
+      "word": "しっかり最後までいきましょう"
+    },
+    {
+      "cardId": 6877,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/b567685fd1377d098c8a8741842e4bbb.jpg",
+      "name": "[ｷﾗ★ｶﾞｰﾙ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2438/8040_6070c526-4636-4580-b9b9-7db3cbdc2fc3.mp3",
+      "word": "いつもと違うやり方にしましょう"
+    },
+    {
+      "cardId": 6654,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/88be8f363f3a99462e6de8c1921f9b56.jpg",
+      "name": "[順番に～]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2363/8040_27fa598d-314b-46ba-a3c5-f3e17f0eaf5c.mp3",
+      "word": "ま、魔法で応援しちゃいます"
+    },
+    {
+      "cardId": 6560,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/af87be68ff4c8d253410459f50d4a67a.jpg",
+      "name": "[花栞、一葉]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2332/6010_17e97504-0e48-4695-828b-0cfb0f347ef2.mp3",
+      "word": "今は、とりあえず栞だけでいいですか？　…では、やりましょうか。まず、台紙に…次に、フィルムに挟んで、アイロンで…剥がしたら、形を整えて、リボンを…"
+    },
+    {
+      "cardId": 6417,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/55037cdb5c6257d9ab378bf2515cfa21.jpg",
+      "name": "[千福万来]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2283/6010_2930949d-6255-4f2b-a5f8-764528e10e5f.mp3",
+      "word": "一、二、三…　ちゃんと七人いますよね。では改めて、幸福祈願をしましょうか。…今年もどうか、平穏で健やかな一年を。そして、たくさんの幸せが訪れますように…"
+    },
+    {
+      "cardId": 6369,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/a9bceeb072d15cf153dee71ca5359275.jpg",
+      "name": "[母直伝]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2267/8040_19e0f26a-c483-41e3-97e6-9c75344ed4f2.mp3",
+      "word": "いつもの調子に戻りましょうね"
+    },
+    {
+      "cardId": 6330,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/14bf3b30dec430318db6cf9ed61a2f4f.jpg",
+      "name": "[また学校で]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2254/8040_e1e4b760-60f5-4418-8138-ef560c3ab449.mp3",
+      "word": "気分よく勝ちましょう"
+    },
+    {
+      "cardId": 6189,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/02573acb8b0bebacf6d587e9af42d0eb.jpg",
+      "name": "[幸せ満面]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2203/8040_a767f42e-cf03-4669-bfe4-26886d515b69.mp3",
+      "word": "勝って盛り上げたいですよね"
+    },
+    {
+      "cardId": 6129,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/5661784092c4c36ba0d53cd3e5b297a8.jpg",
+      "name": "[ﾊﾞｰｽﾃﾞｰｶﾞｰﾙ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2183/8040_6bb31c72-3b9f-4b9e-bed5-66489d9a2118.mp3",
+      "word": "この幸せを、あなたにも"
+    },
+    {
+      "cardId": 6050,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/3b532ea9f0fbc63c7ba7e6753467cb02.jpg",
+      "name": "[水着ﾃﾞｰﾄ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2150/8040_e2d76a8a-54be-4787-b199-f95144f7fbcf.mp3",
+      "word": "いい風が吹いていますよ"
+    },
+    {
+      "cardId": 6023,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/f92bfea5eaab14618ea87ff217b039dd.jpg",
+      "name": "[翻弄読書娘]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2140/8040_9fec273f-e3c2-4166-8990-e07968eac714.mp3",
+      "word": "しっかり声を出していきましょう"
+    },
+    {
+      "cardId": 5778,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/383917788f4be74b95a75c35c7ad20cf.jpg",
+      "name": "[試練の後は]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2052/8040_a7344e4c-e253-440a-8d66-cbe56be0bac4.mp3",
+      "word": "よく考えてから動きましょう"
+    },
+    {
+      "cardId": 5671,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/1747c6ddbdbed23b192eba48b0be1f16.jpg",
+      "name": "[妄想世界]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/2017/8040_e9d5c129-0be8-405b-b33c-23efef38d56d.mp3",
+      "word": "陰ながら、少しでも力になれれば"
+    },
+    {
+      "cardId": 5398,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/5d14c946ce22a7d8ca24d70a04cc9cbe.jpg",
+      "name": "[2人一緒に]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1922/8040_4a1c9715-5688-45be-a77d-544989207003.mp3",
+      "word": "夏の日差しも微笑んでますよ"
+    },
+    {
+      "cardId": 5253,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/c59854dada008e83429d199b3f3c1d65.jpg",
+      "name": "[想像よりも]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1871/8040_ab279b84-223c-4e14-81ba-0add5e140e1f.mp3",
+      "word": "得意なところに入りましょう"
+    },
+    {
+      "cardId": 5087,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/69bf73241ecb54769f2d22afc2bcf856.jpg",
+      "name": "[雨の楽しみ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1814/8040_2d393749-1703-422e-840a-ed624add285c.mp3",
+      "word": "気持ちは前向きにいきましょう"
+    },
+    {
+      "cardId": 4638,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/d09c444e2f90b408e69bd10f9d0027a1.jpg",
+      "name": "[新しい自分]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1662/8040_9a459256-d350-4c23-8856-dbd27da4df4d.mp3",
+      "word": "気を散らさずやって下さいね"
+    },
+    {
+      "cardId": 4560,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/0e17ae7a08715f13f73f6a8cdbe21d50.jpg",
+      "name": "[図書室ｱﾋﾟｰﾙ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1636/8040_c75fd209-a34e-41e1-888f-cfa6af523fc5.mp3",
+      "word": "今日はアピールが大切ですよ"
+    },
+    {
+      "cardId": 4468,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/29af03e5d96b24364e789d835fe54f0c.jpg",
+      "name": "[ﾐﾗｰｶﾞｰﾙ表]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1604/8040_e885e20c-b970-4d53-918a-263f62321a44.mp3",
+      "word": "雨にも負けず、風にも負けず、ですね"
+    },
+    {
+      "cardId": 4294,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/4c6f49588fc8e43f5ebfa34b31b84269.jpg",
+      "name": "[馴染む努力]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1544/8040_c79799bd-6cdd-4fa0-8095-85e7c8ec8da5.mp3",
+      "word": "さぼらずやりましょうね"
+    },
+    {
+      "cardId": 4182,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/81faa9c06fcbbb38b4c18f31bbfac085.jpg",
+      "name": "[硝子の靴]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1505/8040_ae9f7dca-5787-4147-bc41-8f94008fb2ee.mp3",
+      "word": "時間通りに済ませましょう"
+    },
+    {
+      "cardId": 4164,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/2b43e96f1f38af741a7e576164763d84.jpg",
+      "name": "[屋上展望]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1499/8040_2f278210-1a13-4df3-a05e-81c92de7e0e1.mp3",
+      "word": "気持ちを引き締めて行きましょうね"
+    },
+    {
+      "cardId": 4018,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/b24540c3d4a547167b74d504180353f7.jpg",
+      "name": "[ど忘れ少女]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1444/8040_90dc2312-35cd-43e1-b400-61dd6fec49f5.mp3",
+      "word": "準備いいですか？　忘れ物はありませんか？"
+    },
+    {
+      "cardId": 3927,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/d90203fd67561aa43a57a5fc24e79ad0.jpg",
+      "name": "[お静かに]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1407/8040_443c9fbb-e7bb-4a3e-952e-2c99429360c0.mp3",
+      "word": "早く済ませて、続きをやらないと"
+    },
+    {
+      "cardId": 3829,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/0de39251cc375685f7ffff2473237fca.jpg",
+      "name": "[×ｱﾆﾒ仲良し]真尋＆文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1371/8040_7f371d7d-b2de-400e-9e88-c8415b355551.mp3",
+      "word": "真尋：クライマックスよ　文緒：決めてくださいね"
+    },
+    {
+      "cardId": 3826,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/1cf79ce6151346ffe65e1df11d75c740.jpg",
+      "name": "[皆で縄跳び]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1368/8040_f3456711-859b-4fa3-b314-4c67e88f4099.mp3",
+      "word": "集中しますよ、集中です"
+    },
+    {
+      "cardId": 3685,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/414fd9751ff17ff3205a41857f89ef3b.jpg",
+      "name": "[対処の章は]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1315/8040_648e425b-d8a1-4ead-b6ea-9c47565fede4.mp3",
+      "word": "できるだけ援護してみますね"
+    },
+    {
+      "cardId": 3654,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/c37cc99cc2a0bc56f2875ce12ec2482c.jpg",
+      "name": "[×ｱﾆﾒ仲良し]文緒＆エレナ",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1300/8040_7b043a1b-231a-47c0-9f11-2bd90948e453.mp3",
+      "word": "文緒：平常心ですよ　エレナ：期待してるからね〜"
+    },
+    {
+      "cardId": 3615,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/32b817b888a56a6136c3b06d04bed5bf.jpg",
+      "name": "[書に従い]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1283/8040_136dfb40-21ab-48e0-b6aa-34937aeaca5d.mp3",
+      "word": "お茶を淹れてまってますから"
+    },
+    {
+      "cardId": 3441,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/e9232499ee89df1a1f393a860801d59a.jpg",
+      "name": "[結わず髪]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1219/8040_d9387929-a33e-4519-a53d-22eae1619552.mp3",
+      "word": "油断しないで行きましょうね"
+    },
+    {
+      "cardId": 3316,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/422ba8f8b82182b18dfa1c4d89a9f9b4.jpg",
+      "name": "[転寝華]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1175/8040_afbc052b-d8c8-4961-a312-f1dc93c96201.mp3",
+      "word": "目の覚める勝負、期待してますね。"
+    },
+    {
+      "cardId": 3235,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/17bd43e95a53dfe4e82b548ce32b0ff1.jpg",
+      "name": "[異国の書物]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1146/8040_e0a0d7a7-80a9-4643-9531-cbf5dae48339.mp3",
+      "word": "郷に入っては郷に従え、でしょうか"
+    },
+    {
+      "cardId": 3010,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/7c500851273ae24cfcd8eaac1fdf9d0a.jpg",
+      "name": "[光の誘い]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1062/8040_796f6dcb-cde9-4c1a-aee2-2047e503a121.mp3",
+      "word": "できるだけ静かに、ですよ"
+    },
+    {
+      "cardId": 2868,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/53b37cf9207ac0e7da444b82cf0bf99b.jpg",
+      "name": "[読書乙女]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/1012/8040_11eb13d7-694c-49f5-8c47-5842b4f433ac.mp3",
+      "word": "ゴスロリな応援？　そ、それってどんな？"
+    },
+    {
+      "cardId": 2718,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/6d3a96eff6c45f06699daa847887988d.jpg",
+      "name": "[慣れぬ日差し]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/960/8040_e24856d9-d625-465d-a8c0-20922b6af317.mp3",
+      "word": "しっかり綺麗にしちゃいましょう"
+    },
+    {
+      "cardId": 2490,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/237231ececfd7256a6ccb9114c93b942.jpg",
+      "name": "[非力渾身]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/878/8040_37bbb608-a090-4448-9b98-350a7978f0ac.mp3",
+      "word": "ベストスコアを出せるように〜"
+    },
+    {
+      "cardId": 2264,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/02e0d5556e40f731d323e0bf907eacd5.jpg",
+      "name": "[時に乗じて]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/798/8040_46ae45c5-b9ea-4c59-bbdd-9de7e8d22c8e.mp3",
+      "word": "たまには張り切って行きますね"
+    },
+    {
+      "cardId": 2234,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/7a8d4c315812b8b67fbf49e3ba5319db.jpg",
+      "name": "[静かな時に]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/788/8040_1de949d3-cf6c-42e4-bdf7-987c1239a09a.mp3",
+      "word": "いつも通り、応援してますね"
+    },
+    {
+      "cardId": 2179,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/ab3c3ebdd93aa5b7fd1b7f302beecd4d.jpg",
+      "name": "[ﾕｰﾄﾋﾟｱ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/769/8040_483551a7-89c4-491e-93b3-9860cffe79f0.mp3",
+      "word": "冷えてしまう前にすませましょ"
+    },
+    {
+      "cardId": 2148,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/673b3b8de6d7fbd73ce6c366a002ae4b.jpg",
+      "name": "[緊張の代役]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/756/8040_31c5c986-474f-42a9-a7cc-512b1ddaa7df.mp3",
+      "word": "素敵なところ、見せてくださいね"
+    },
+    {
+      "cardId": 2076,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/4a385a91b76e04e7a258912f92dcf246.jpg",
+      "name": "[ﾊﾞﾚﾝﾀｲﾝﾁｮｺ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/732/8040_89c52372-3a4d-480f-a5e5-f14b5edbb5ad.mp3",
+      "word": "精一杯の気持ち、こめますね"
+    },
+    {
+      "cardId": 2000,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/b9f3e4b81a7ab56c7841f57de588ed14.jpg",
+      "name": "[救いの女神]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/706/8040_687a1f24-1435-4830-a4d7-dc029ab2667c.mp3",
+      "word": "ドンドンとどうぞ"
+    },
+    {
+      "cardId": 1893,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/bf23cfa80f244d98d087aed3943f4aa3.jpg",
+      "name": "[星空を仰ぐ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/667/8040_f1ebd981-6456-4d8f-b073-75f633362c7f.mp3",
+      "word": "流れ星、見えましたか？"
+    },
+    {
+      "cardId": 1785,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/46b637add614b379cd1185422d4e46c2.jpg",
+      "name": "[ｸﾘｽﾏｽｷﾞﾌﾄ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/627/8040_13e0f12f-f65f-4ce3-9f6a-54502ccfa8fd.mp3",
+      "word": "今夜はきっと勝てますよ〜"
+    },
+    {
+      "cardId": 1618,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/46f7c3c718056fe3f5934d0c30325634.jpg",
+      "name": "[秋の少女]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/568/8040_f3109676-c16f-435a-af32-4813c81e028c.mp3",
+      "word": "こちらのペースに持ち込みましょう。"
+    },
+    {
+      "cardId": 1492,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/cda57f975f21626130ad59076aa1900f.jpg",
+      "name": "[貴方への本]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/524/8040_2bde7bc8-684c-468f-b48a-395b1110fb7f.mp3",
+      "word": "本に書いてた通りです。いけますよ〜"
+    },
+    {
+      "cardId": 1339,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/192cb8c9ffbd865d3d9a5b28809f8329.jpg",
+      "name": "[ｸｰﾙﾒｲﾄﾞ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/473/8040_f25a70f4-b83e-48b5-98a9-141ce3be8408.mp3",
+      "word": "そのままそのまま〜"
+    },
+    {
+      "cardId": 1198,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/0080fee2618e8c33e8eb604e676af5ef.jpg",
+      "name": "[気になる姿]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/420/8040_3904f430-7422-4343-868d-70fc9aaf497b.mp3",
+      "word": "早めに片付けましょう？"
+    },
+    {
+      "cardId": 1061,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/5ae2dd725016838733c31cdfa0907b2a.jpg",
+      "name": "[夏に備えて]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/367/8040_3fa03307-8a09-499e-b1f0-4de011ae325e.mp3",
+      "word": "練習の成果で"
+    },
+    {
+      "cardId": 982,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/cdf792a13d6feaf8ad87ff1d17b4132d.jpg",
+      "name": "[私の精一杯]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/340/8040_2e5da5ee-3339-4736-8f87-f9c7d10b7057.mp3",
+      "word": "できるだけのことはしましょうね"
+    },
+    {
+      "cardId": 919,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/98a9e433e0147c9c3b4dffd6ad32910f.jpg",
+      "name": "[ﾏﾆｭｱﾙ派]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/319/8040_08dab463-fd46-4098-8e1d-93efdcfb6f73.mp3",
+      "word": "おいしくいただきましょう"
+    },
+    {
+      "cardId": 783,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/bbf1c16f70105b7bce623c3d330115b6.jpg",
+      "name": "[感謝の笑顔]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/271/8040_1974899c-36a6-4809-926f-c1251992763e.mp3",
+      "word": "いい風が吹いてますよ〜"
+    },
+    {
+      "cardId": 722,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/468f52aeb0060c047296c79f43dcc641.jpg",
+      "name": "[自然が一番]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/248/8040_60641197-aa53-4f2f-9b58-60fb32c37f6a.mp3",
+      "word": "元気出して〜"
+    },
+    {
+      "cardId": 685,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/c774977b36851c1e3f780f4992d0e2f9.jpg",
+      "name": "[仲良し]文緒＆エレナ",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/235/8040_5af5c242-4689-484a-8559-1521b4252a6e.mp3",
+      "word": "勝ったらサービスショット！…ありませんから"
+    },
+    {
+      "cardId": 606,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/3223c7a62b5e36405dac0bad31c0a68a.jpg",
+      "name": "[唐突なｻｰﾋﾞｽ]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/206/8040_b3f7e665-4fdb-4e37-9c07-15514cb02537.mp3",
+      "word": "焦らずに行きましょう"
+    },
+    {
+      "cardId": 540,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/16f4a4ca684e04e62abe5f9fc0f94792.jpg",
+      "name": "[…どうぞ…]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/184/8040_a5e1b55f-a083-42d4-aa67-8a6e39900ec9.mp3",
+      "word": "チョコレートで力を出して〜"
+    },
+    {
+      "cardId": 450,
+      "collectedFlg": false,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/a63dead767c8cb283d4c36b31c52645d.jpg",
+      "name": "[晴着美人]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/154/8040_916c6367-3800-4ce4-a013-25e071556246.mp3",
+      "word": "幸先よく行きましょう"
+    },
+    {
+      "cardId": 258,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/ad84c72c3e2c008584bbd0a0fa915a31.jpg",
+      "name": "[図書室の華]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/86/6010_65f44cc9-b0cb-419d-a7c7-5e01d825034d.mp3",
+      "word": "ごめんなさい、一日中付き合わせた上に、本まで持たせてしまって…重いでしょう？…今日一日、楽しそうな私が見れたから、これくらい、いい？　…ええっと、その…"
+    },
+    {
+      "cardId": 255,
+      "collectedFlg": true,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/aee9f685378b53f14de6d2ec214fb1f1.jpg",
+      "name": "[文学少女]村上文緒",
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/85/6010_58cf7f29-e4a6-43dc-9d97-2e9301605d23.mp3",
+      "word": "…この栞、そんなに素敵ですか？普通の押し花ですが。…よろしければ、差し上げます。遠慮しなくていいですよ、どうぞ。"
+    }
+  ],
+  "correlation": [
+    {
+      "correlationText": "仲良し",
+      "correlationType": 1,
+      "targetProfileId": 64,
+      "targetProfileImageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/e81e189d7a230974d6ec3cf4998e8019.png",
+      "targetSphereId": 2
+    },
+    {
+      "correlationText": "特に仲良し",
+      "correlationType": 1,
+      "targetProfileId": 75,
+      "targetProfileImageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/86960d8979d4e9327b8fb4acf8b0349b.png",
+      "targetSphereId": 2
+    },
+    {
+      "correlationText": "仲良し",
+      "correlationType": 1,
+      "targetProfileId": 103,
+      "targetProfileImageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/70e38eff4c73b1877618e5e4e9ee097f.png",
+      "targetSphereId": 2
+    },
+    {
+      "correlationText": "本好き同士",
+      "correlationType": 1,
+      "targetProfileId": 110,
+      "targetProfileImageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/dc115c5dcb3e2b81847b48ce5ee5c462.png",
+      "targetSphereId": 1
+    }
+  ],
+  "scenario": [2, 6, 9, 15, 17, 25],
+  "memories": [
+    {
+      "actor": "名塚佳織",
+      "bannerSrcUrl": null,
+      "completed": false,
+      "description": "6分34秒",
+      "distributionRestTimeBean": null,
+      "distributionTime": null,
+      "endTimeBean": null,
+      "extraCv": null,
+      "girlName": "村上文緒",
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/collection/6304f19d5373fe4e2e3a40fba894fa2c.jpg",
+      "linkText": null,
+      "memoryTicketCount": 0,
+      "memoryType": 4,
+      "memoryVolumeMap": null,
+      "new": false,
+      "nextVolume": null,
+      "profileId": 67,
+      "relationalUrl": null,
+      "season": 101,
+      "seasonName": "会いたくなる理由",
+      "sphereId": 1,
+      "startDatetime": "2019/12/11 12:00:00",
+      "subTitle": [
+        "倒れた文緒の看病をしていたあなた。授業をさぼったことがばれないように、思わず隠れたのは文緒がいるベッドの中で…！？"
+      ],
+      "tradable": false,
+      "tweetName": "humi_bookmark",
+      "volumeSize": null
+    }
+  ],
+  "petitgirls": [
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/874c064f8706b465e5619d6e248948b3.png",
+      "petitgirlId": 1000675,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/4346f7828e082a0aa2db58895d678fa8.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/c1038334e83ce66ec5d299bbfec488fc.png",
+      "petitgirlId": 1000673,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/fd51c503463357992293571fa0a91ea6.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/b48342b3134c89fe51bac598cc01431c.png",
+      "petitgirlId": 1000672,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/6b8942bfd43bbf244267108b22510211.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/9492fe4f309b86aee0358ebf9021e8ba.png",
+      "petitgirlId": 1000671,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/a3a449adefcbbf8ddce8cd71bfdd617f.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/c3a479fef3a98346f31cc6d6f255e9d8.png",
+      "petitgirlId": 1470,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/354db604c4fd850e75dda68ef20953df.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/3cd2bead3fdd83714273debd41c32e10.png",
+      "petitgirlId": 1424,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/ee10869a0f1fdc6461ab2d82521f5159.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/21f3f96bc5581ba3c6dfc6a7d2511974.png",
+      "petitgirlId": 1237,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/a959f9888dbb45bec1f30e07515919aa.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/0f6b904b0dcc3bc0062dd029dedbe8fa.png",
+      "petitgirlId": 1210,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/3a2e409a144050a1f4da960517a3d127.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/805631878c2c73380049c07b88cc8be3.png",
+      "petitgirlId": 1177,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/c8ec2e32e03ffb790209305efab2326d.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/bf9fb00f656e7d8929685d66229d0654.png",
+      "petitgirlId": 1167,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/1c2143f7375aa9e3a2ae1183c03602e9.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/4fd0d6a3d767892f59dc4769cb865c62.png",
+      "petitgirlId": 1063,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/b9f74e01bd93f523669cd2def0c85889.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/8faf67e0c7474adb1f51cd03c1d1c667.png",
+      "petitgirlId": 1052,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/8d9c03da1de240777026c8abc4684a2f.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/608094959925fefa8b4eaa724ab7989a.png",
+      "petitgirlId": 1005,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/408a37b369430b143b0c2d3449fa7437.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/88db7defd2377e5cc97a8e37511dd125.png",
+      "petitgirlId": 158,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/e5050bc8ffa09371c4c2ab9d05caf9d3.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/47565df78280642a8b7b96b26a6b56bd.png",
+      "petitgirlId": 62,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/326fe2ac9cce3b7c364bf5a1cc656c0b.png"
+    },
+    {
+      "bodyImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/girl/296x326/df2b2a30604f9643254cfd8b192f29cb.png",
+      "petitgirlId": 35,
+      "stageImgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/petitgirl/stage/200x100/407ae9ad2959c3a8d9822ee58e9c60c4.png"
+    }
+  ],
+  "girl": {
+    "actorName": "名塚佳織",
+    "age": "18才",
+    "alphabetName": "FUMIO MURAKAMI",
+    "animationImage": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/animation/fad47a190d61d2201e3b4bbe551c589a.png",
+    "birthday": "11月2日",
+    "birthdayFlg": false,
+    "blood": "B型",
+    "bust": "86",
+    "className": "3年A組",
+    "club": "図書委員会",
+    "description": "口数が少なく、いつも本を読んでいる図書委員。<br>感情表現が苦手で口下手のため、うまく他人と打ち解けられないが、それでも自分に声をかけてくれる人には感謝している。<br>望月エレナと仲が良い。",
+    "favoriteFood": "ケーキ",
+    "grade": "3",
+    "hateFood": "レバー",
+    "height": "160",
+    "hip": "86",
+    "hobby": "読書",
+    "id": 67,
+    "image": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/fad47a190d61d2201e3b4bbe551c589a.png",
+    "introduceVoiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/girl/introduce/fad47a190d61d2201e3b4bbe551c589a.mp3",
+    "japaneseName": "むらかみ ふみお",
+    "messageImage": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/message/fad47a190d61d2201e3b4bbe551c589a.png",
+    "name": "村上文緒",
+    "nickname": "村上先輩",
+    "notDetailFlg": false,
+    "questImage": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/fad47a190d61d2201e3b4bbe551c589a.png",
+    "specialVoiceFlg": false,
+    "sphereId": 1,
+    "star": "さそり座",
+    "tweetName": "humi_bookmark",
+    "waist": "56",
+    "weight": "45"
+  },
+  "hitokoma": [
+    {
+      "collaboFlg": false,
+      "directoryFlg": true,
+      "girlName": "村上文緒",
+      "hitokomaId": 11,
+      "imgUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/hitokoma/94febfa8e950ce8e1ded9999958a5196.png",
+      "newFlg": false,
+      "profileId": 67,
+      "subGirls": [
+        {
+          "collaboFlg": false,
+          "directoryFlg": true,
+          "girlName": "クロエ・ルメール",
+          "hitokomaId": null,
+          "imgUrl": null,
+          "newFlg": false,
+          "profileId": 64,
+          "subGirls": null,
+          "title": null
+        },
+        {
+          "collaboFlg": false,
+          "directoryFlg": true,
+          "girlName": "望月エレナ",
+          "hitokomaId": null,
+          "imgUrl": null,
+          "newFlg": false,
+          "profileId": 75,
+          "subGirls": null,
+          "title": null
+        },
+        {
+          "collaboFlg": false,
+          "directoryFlg": true,
+          "girlName": "戸村美知留",
+          "hitokomaId": null,
+          "imgUrl": null,
+          "newFlg": false,
+          "profileId": 70,
+          "subGirls": null,
+          "title": null
+        }
+      ],
+      "title": "図書室の華"
+    }
+  ],
+  "romanceSummary": {
+    "commingSoonFlg": false,
+    "completeFlg": false,
+    "currentAkaiitoCount": 77,
+    "currentChapterId": null,
+    "currentChapterName": null,
+    "currentEpisodeId": null,
+    "currentEpisodeName": null,
+    "firstEpisodeReleaseDatetime": "2016/03/25 14:00:00",
+    "girl": {
+      "actor": "名塚佳織",
+      "club": "図書委員会",
+      "grade": "3年A組",
+      "hitokomaCount": 1,
+      "imageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/fad47a190d61d2201e3b4bbe551c589a.png",
+      "name": "村上文緒",
+      "newFlg": false,
+      "profileId": 67,
+      "questImageUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/profile/quest/fad47a190d61d2201e3b4bbe551c589a.png",
+      "sort": 101,
+      "specialVoiceFlg": false,
+      "sphereId": 1,
+      "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/girl/introduce/fad47a190d61d2201e3b4bbe551c589a.mp3"
+    },
+    "lastUpdateDatetime": "2017/06/28 14:00:00",
+    "lastUpdateDay": 28,
+    "lastUpdateMonth": 6,
+    "newArrivalEpisodeFlg": false,
+    "newArrivalGirlFlg": false,
+    "nextChapterId": 0,
+    "nextChapterName": "春の予感",
+    "nextEpisodeId": 1,
+    "nextEpisodeName": "始まりの風",
+    "nextEpisodeReward": null,
+    "nextEpisodeTypeEnum": "EPISODE_0",
+    "progressAkaiitoCount": 0,
+    "readableFlg": true,
+    "requireAkaiitoCount": 0,
+    "romanceHashValue": "2bbd5fcb32dbb45079bcc8211349b919",
+    "unreadFlg": true,
+    "unreadReadableFlg": true
+  },
+  "token": "OE7zjH"
+}

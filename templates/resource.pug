@@ -1,0 +1,106 @@
+doctype html
+html
+  head
+    style(type='text/css').
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #363636;
+      }
+      #datetime {
+        width: 100%;
+        margin: 1px;
+        padding: 2px 4px;
+        border: thin solid #808080;
+        display: inline-block;
+        font-size: 10px;
+        background-color: #E2E4E4;
+        color: #333333;
+      }
+      }
+      #grid {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      #grid ul {
+        margin: 2px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+      }
+      #grid li {
+        margin: 2px;
+        float: left;
+        list-style: none;
+        width: 160px;
+        border: thin solid #A9A9A9;
+        border-radius: 2px;
+        background-color: #696969;
+        text-align: center;
+        vertical-align: middle;
+      }
+      #grid li img {
+        margin: auto;
+        max-width: 160px;
+        max-height: 160px;
+      }
+      #grid li audio {
+        margin: auto;
+        width: 160px;
+      }
+      #grid li div.url {
+        padding: 4px;
+        width: 150px;
+        border: thin solid #808080;
+        display: inline-block;
+        font-size: 6px;
+        word-break: break-all;
+        background-color: #DCDCDC;
+        text-align: center;
+      }
+      #grid li div.content {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+      }
+
+  body
+    div(id='datetime') Last update: #{datetime}
+    div(id='grid')
+      ul
+        each url in urls
+          li
+            div(class='url')
+              a(href=url) #{url}
+            div(class='content')
+              - const ext = url.split('.').pop();
+              case ext
+                when 'jpg'
+                when 'gif'
+                when 'png'
+                when 'svg'
+                  img(src=url)
+                when 'mp3'
+                when 'm4a'
+                when 'wav'
+                when 'ogg'
+                  audio(controls preload='auto' width='160')
+                    source(src=url)
+                when 'mp4'
+                  video(controls width='160')
+                    source(src=url)
+                when 'json'
+                  img(src='https://icongr.am/material/json.svg?size=60')
+                when 'css'
+                  img(src='https://icongr.am/material/language-css3.svg?size=60')
+                when 'js'
+                  img(src='https://icongr.am/material/language-javascript.svg?size=60')
+                default
+                  img(src='https://icongr.am/material/file-question-outline.svg?size=60')
+

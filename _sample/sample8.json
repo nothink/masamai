@@ -1,0 +1,45 @@
+{
+  "data": {
+    "voice": [
+      {
+        "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4089/SCENARIO_GET_688e08e1-aef1-4020-8e5a-668790fa17fc.mp3",
+        "word": "あっ、意外と熱いんですね…　いえ、大丈夫です。だんだん、心地良くなってきました…　ん…　はぁ…　こうしていると、じんわり汗が…　ふふ、このまま眠ってしまいそうです。",
+        "voiceType": "getPro"
+      },
+      {
+        "voiceUrl": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/mp3/4089/BATTLE_SKILL_ea7a5819-269b-4083-8bf1-0efd4e48c07a.mp3",
+        "word": "勝ったらマッサージが待ってますよ",
+        "voiceType": "battle"
+      }
+    ],
+    "count": 1,
+    "isTouched": true,
+    "isDated": false,
+    "evolution": [
+      {
+        "cardGroupId": "4089",
+        "evolutionStage": "1",
+        "cardId": "11805",
+        "cardImg": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/list/19deda68cfc112e493c7f65ceb8b4e15.jpg",
+        "own": true
+      },
+      {
+        "cardGroupId": "4089",
+        "evolutionStage": "2",
+        "cardId": "11806",
+        "cardImg": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/list/738166fd618b660bef22a5c3798b53b0.jpg",
+        "own": true
+      },
+      {
+        "cardGroupId": "4089",
+        "evolutionStage": "3",
+        "cardId": "11807",
+        "cardImg": "https://dqx9mbrpz1jhx.cloudfront.net/vcard/ratio20/images/card/list/eadce5e576dd68e6b9e1fa0131b62998.jpg",
+        "own": true
+      }
+    ],
+    "dateWordIdList": [540667, 540668, 540669],
+    "isMaxed": true
+  },
+  "token": "s3ZbEl"
+}

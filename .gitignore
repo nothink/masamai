@@ -106,3 +106,6 @@ dist
 yarn.lock
 
 .vscode
+.DS_Store
+
+config/*
