@@ -1,6 +1,5 @@
 import fetch from 'node-fetch';
 import Redis from 'ioredis';
-import crypto from 'crypto';
 import { Storage } from '@google-cloud/storage';
 
 import { DEFAULT_REDIS_HOST, DEFAULT_REDIS_PORT, RESOURCES_REDIS_DB, GS_BUCKET_NAME, GS_KEY_FILE_PATH } from '../const';
@@ -15,9 +14,14 @@ const bucket = new Storage({
   keyFilename: GS_KEY_FILE_PATH,
 }).bucket(GS_BUCKET_NAME);
 
-export default class Resource {
-  public url!: URL;
+const CARD_KEY_BASE = 'vcard/ratio20/images/card/';
+const HASH_LENGTH = 32;
+const HASH_LEGEX = /[0-9a-f]{32}/;
 
+/**
+ * vcardサーバから取得したリソースを管理するモデルクラス
+ */
+export default class Resource {
   /**
    * vcardサーバのリソースファイルを同期する
    * @param strUrl URL文字列
@@ -25,11 +29,9 @@ export default class Resource {
   static async sync(strUrl: string): Promise<string | undefined> {
     const url = new URL(strUrl);
     // URLチェック
-    if (
-      !url ||
-      !['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'].includes(url.hostname) ||
-      url.pathname.slice(0, 7) !== '/vcard/'
-    ) {
+    const validDomains = ['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'];
+    if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
+      // 無効なURL
       return;
     }
     // オブジェクトキー作成
@@ -37,20 +39,14 @@ export default class Resource {
     if (!key) {
       return;
     }
-    // オブジェクトキーのハッシュ作成
-    const hashed = crypto
-      .createHash('sha256')
-      .update(key, 'utf8')
-      .digest('hex');
-    // 以下Redis操作など
+    // 以下Redis操作
     const target = url.origin + url.pathname;
-    const current = await redis.get(hashed);
-    if (current && current === key) {
+    if (await redis.exists(key)) {
       return;
     }
-    // ここまでは await
+    // ここまでは await でIO保持
 
-    // ここからはpromiseでIOを離す
+    // ここから fetch 等するので promise でIOを離す
     fetch(target).then(response => {
       if (!response.ok) {
         throw new Error(response.toString());
@@ -61,9 +57,10 @@ export default class Resource {
 
       if (readable && writable) {
         readable.pipe(writable);
-        redis.set(hashed, key).then(status => {
+        // オブジェクト書き込みが完了した時のみ Redis にキー設定
+        redis.set(key, key).then(status => {
           if (status !== 'OK') {
-            throw new Error(`Failed to set {"${hashed}": "${key}"}. (status: ${status})`);
+            throw new Error(`Failed to set "${key}". (status: ${status})`);
           }
         });
       }
@@ -74,15 +71,28 @@ export default class Resource {
   /**
    * vcardサーバの取得済みリソース一覧のキーパスを一挙取得する
    */
-  static async get(): Promise<string[]> {
-    const keys = await redis.keys('*');
-    const values: string[] = [];
-    for (const key of keys) {
-      const value = await redis.get(key);
-      if (value) {
-        values.push(value);
-      }
-    }
-    return values;
+  static async getAll(): Promise<string[]> {
+    return (await redis.keys('*')).sort();
+  }
+
+  /**
+   * vcardサーバの取得済みリソース一覧から、card 画像のハッシュを抜き出して取得する
+   * @param subPath card画像で必要なサブパス(空文字でcardそのもの)
+   * @param ext     拡張子(空文字の場合はディレクトリを含むすべて)
+   */
+  static async getCardHash(subPath?: string, ext?: string): Promise<string[]> {
+    const relativePath = subPath ?? '';
+    const start = CARD_KEY_BASE.length + relativePath.length;
+
+    const keys = await redis.keys(CARD_KEY_BASE + relativePath + '*' + ext);
+    return keys
+      .filter(key => {
+        // このテストが通らない場合はパス文字列が別形式なので対象外
+        return HASH_LEGEX.test(key.slice(start, start + HASH_LENGTH));
+      })
+      .map(key => {
+        return key.slice(start, start + HASH_LENGTH);
+      })
+      .sort();
   }
 }
