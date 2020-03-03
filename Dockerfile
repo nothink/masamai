@@ -15,7 +15,7 @@ RUN yarn install --production=false
 # Builder
 FROM prebuilder AS builder
 COPY . .
-COPY --from=prebuilder /usr/src/app/node_modules /usr/src/app/node_modules
+COPY --from=prebuilder /app/node_modules /app/node_modules
 RUN yarn lint && \
     # yarn test:unit && \
     yarn build && \
