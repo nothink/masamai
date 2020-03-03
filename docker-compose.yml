@@ -1,0 +1,51 @@
+version: '3.1'
+
+services:
+
+#   https-portal:
+#     container_name: "https-portal"
+#     image: "steveltn/https-portal:latest"
+#     ports:
+#       - "80:80"
+#       - "443:443"
+#     links:
+#       - "koa"
+#     restart: "always"
+#     environment:
+#         DOMAINS: "yurararan.nothink.jp -> http://koa:3000"
+# #        STAGE: "production"
+# #        FORCE_RENEW: true
+#     volumes:
+#       - "./data/certs:/var/lib/https-portal"
+
+  koa:
+    container_name: "koa"
+    build: "."
+    ports:
+      - "3000:3000"
+    restart: "always"
+    env_file:
+      - ".env"
+
+  redis:
+    container_name: "redis"
+    image: "redis:alpine"
+    hostname: "redis"
+    restart: "always"
+    ports:
+      - "6379:6379"
+    volumes:
+      - "./data/redis:/data"
+
+  mongo:
+    container_name: "mongo"
+    image: "mongo:latest"
+    hostname: "mongo"
+    restart: "always"
+    ports:
+      - "27017:27017"
+    env_file:
+      - ".env"
+    volumes:
+      - "./data/mongo/db:/data/db"
+      - "./data/mongo/configdb:/data/configdb"
