@@ -2,21 +2,21 @@ version: '3.1'
 
 services:
 
-#   https-portal:
-#     container_name: "https-portal"
-#     image: "steveltn/https-portal:latest"
-#     ports:
-#       - "80:80"
-#       - "443:443"
-#     links:
-#       - "koa"
-#     restart: "always"
-#     environment:
-#         DOMAINS: "yurararan.nothink.jp -> http://koa:3000"
-# #        STAGE: "production"
-# #        FORCE_RENEW: true
-#     volumes:
-#       - "./data/certs:/var/lib/https-portal"
+  https-portal:
+    container_name: "https-portal"
+    image: "steveltn/https-portal:latest"
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - "koa"
+    restart: "always"
+    environment:
+        DOMAINS: "masamai.nothink.jp -> http://koa:3000"
+#        STAGE: "production"
+#        FORCE_RENEW: true
+    volumes:
+      - "./data/certs:/var/lib/https-portal"
 
   koa:
     container_name: "koa"
