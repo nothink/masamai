@@ -21,16 +21,16 @@ RUN yarn lint && \
     yarn build && \
     rm -r node_modules yarn.lock && \
     yarn install --production=true && \
-    mkdir /tmp && \
-    mv node_modules /tmp && \
-    mv package.json /tmp && \
-    mv .env /tmp && \
-    mv config /tmp && \
-    mv templates /tmp && \
-    mv dist /tmp
+    mkdir /atmp && \
+    mv node_modules /atmp && \
+    mv package.json /atmp && \
+    mv .env /atmp && \
+    mv config /atmp && \
+    mv templates /atmp && \
+    mv dist /atmp
 
 # Release
 FROM base AS release
 ENV NODE_ENV=production
-COPY --from=builder /tmp /app
+COPY --from=builder /atmp /app
 CMD ["yarn", "start"]
