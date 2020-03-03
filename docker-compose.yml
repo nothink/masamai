@@ -13,7 +13,7 @@ services:
     restart: "always"
     environment:
         DOMAINS: "masamai.nothink.jp -> http://koa:3000"
-#        STAGE: "production"
+        STAGE: "production"
 #        FORCE_RENEW: true
     volumes:
       - "./data/certs:/var/lib/https-portal"

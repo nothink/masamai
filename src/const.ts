@@ -11,7 +11,7 @@ export const DEFAULT_REDIS_PORT = 6379;
 export const DEFAULT_REDIS_DB = 0;
 export const RESOURCES_REDIS_DB = 1;
 
-export const DEFAULT_ROUTE_PREFIX = '/api/v0';
+export const DEFAULT_ROUTE_PREFIX = '/api/v1';
 
 export const GS_BUCKET_NAME = 'masamai';
 export const GS_KEY_FILE_PATH = resolve(__dirname, '../config/seio.json');
