@@ -108,4 +108,6 @@ yarn.lock
 .vscode
 .DS_Store
 
-config/*
+config
+
+data

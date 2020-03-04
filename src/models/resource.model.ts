@@ -2,17 +2,19 @@ import fetch from 'node-fetch';
 import Redis from 'ioredis';
 import { Storage } from '@google-cloud/storage';
 
-import { DEFAULT_REDIS_HOST, DEFAULT_REDIS_PORT, RESOURCES_REDIS_DB, GS_BUCKET_NAME, GS_KEY_FILE_PATH } from '../const';
+import '../env';
 
 // 以下はコントローラ読み込み時に単一でインスタンス確保される
+// Redis
 const redis = new Redis({
-  port: DEFAULT_REDIS_PORT,
-  host: DEFAULT_REDIS_HOST,
-  db: RESOURCES_REDIS_DB,
+  port: process.env.NODE_REDIS_PORT ? parseInt(process.env.NODE_REDIS_PORT as string) : undefined,
+  host: process.env.NODE_REDIS_HOST,
+  db: process.env.NODE_REDIS_RESOURCES_DB ? parseInt(process.env.NODE_REDIS_RESOURCES_DB as string) : undefined,
 });
+// Google Storage
 const bucket = new Storage({
-  keyFilename: GS_KEY_FILE_PATH,
-}).bucket(GS_BUCKET_NAME);
+  keyFilename: process.env.NODE_GS_KEY_FILE_PATH,
+}).bucket(process.env.NODE_GS_BUCKET_NAME as string);
 
 const CARD_KEY_BASE = 'vcard/ratio20/images/card/';
 const HASH_LENGTH = 32;

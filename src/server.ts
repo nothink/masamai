@@ -4,15 +4,15 @@ import Koa from 'koa';
 import { createKoaServer } from 'routing-controllers';
 import logger from 'koa-logger';
 
-import { DEFAULT_LISTEN_PORT, DEFAULT_ROUTE_PREFIX } from './const';
 import { UserController } from './controllers/user.controller';
 import { ResourceController } from './controllers/resource.controller';
+import './env';
 
 const app = createKoaServer({
   controllers: [UserController, ResourceController],
-  routePrefix: DEFAULT_ROUTE_PREFIX,
+  routePrefix: process.env.NODE_KOA_ROUTE_PREFIX,
 }) as Koa;
 
 app.use(logger());
 
-app.listen(DEFAULT_LISTEN_PORT);
+app.listen(parseInt(process.env.NODE_KOA_LISTEN_PORT as string));

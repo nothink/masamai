@@ -6,7 +6,6 @@ import pug from 'pug';
 import Resource from '../models/resource.model';
 
 import '../env';
-import { RESOURCE_MAIL_PUG_PATH } from '../const';
 
 /**
  * vcardサーバから取得したリソースを管理するルーティングコントローラ
@@ -216,7 +215,7 @@ export class ResourceController {
       const mailfromto = process.env.NODE_MAIL_FROM_TO as string;
 
       const mailgun = new Mailgun({ apiKey: apiKey, domain: domain });
-      const bodypug = pug.compileFile(RESOURCE_MAIL_PUG_PATH);
+      const bodypug = pug.compileFile(process.env.NODE_RESOURCE_MAIL_PUG_PATH as string);
 
       mailgun.messages().send({
         from: mailfromto,
