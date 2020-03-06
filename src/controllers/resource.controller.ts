@@ -25,9 +25,9 @@ export class ResourceController {
   @Post('/resources')
   async post(@Body() resources: string[]): Promise<string[]> {
     const news: string[] = [];
-    for (const resource of resources) {
-      const result = await Resource.sync(resource);
-      console.log(result);
+    for (const key of resources) {
+      console.log('key: ' + key);
+      const result = await Resource.sync(key);
       if (result) {
         news.push(result as string);
       }

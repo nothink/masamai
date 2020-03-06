@@ -31,9 +31,11 @@ export default class Resource {
   static async sync(strUrl: string): Promise<string | undefined> {
     const url = new URL(strUrl);
     // URLチェック
+    console.log(url);
     const validDomains = ['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'];
     if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
       // 無効なURL
+      console.log('invalid URL: ' + url);
       return;
     }
     // オブジェクトキー作成
