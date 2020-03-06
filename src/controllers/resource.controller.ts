@@ -24,9 +24,9 @@ export class ResourceController {
   @HttpCode(202)
   @Post('/resources')
   async post(@Body() resources: string[]): Promise<string[]> {
+    console.log(resources);
     const news: string[] = [];
     for (const key of resources) {
-      console.log('key: ' + key);
       const result = await Resource.sync(key);
       if (result) {
         news.push(result as string);
