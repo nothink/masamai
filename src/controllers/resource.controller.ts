@@ -23,17 +23,17 @@ export class ResourceController {
    */
   @HttpCode(202)
   @Post('/resources')
-  async post(@Body() resources: string[]): Promise<string[]> {
-    console.log(resources);
+  async post(@Body() urls: string[]): Promise<{ added: string[] }> {
+    console.log(urls);
     const news: string[] = [];
-    for (const key of resources) {
+    for (const key of urls) {
       const result = await Resource.sync(key);
       if (result) {
         news.push(result as string);
       }
     }
     this.sendMail(news);
-    return news;
+    return { added: news };
   }
 
   /**
