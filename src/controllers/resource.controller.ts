@@ -27,11 +27,15 @@ export class ResourceController {
     const news: string[] = [];
     for (const key of resources.urls) {
       const result = await Resource.sync(key);
-      if (result) {
+      if (!result) {
+        console.log(`undefined. (key: ${key})`);
+      } else {
         news.push(result as string);
       }
     }
-    this.sendMail(news);
+    if (news.length > 0) {
+      this.sendMail(news);
+    }
     return { added: news };
   }
 
