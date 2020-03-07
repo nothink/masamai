@@ -28,20 +28,18 @@ export default class Resource {
    * vcardサーバのリソースファイルを同期する
    * @param strUrl URL文字列
    */
-  static async sync(strUrl: string): Promise<string | undefined> {
-    const url = new URL(strUrl);
+  static async sync(src: string): Promise<string | undefined> {
+    const url = new URL(src);
     // URLチェック
     const validDomains = ['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'];
     if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
       // 無効なURL
-      console.log('invalid URL: ' + url);
       return undefined;
     }
     // オブジェクトキー作成
     const key = url.pathname.length > 0 && url.pathname.slice(0, 1) === '/' ? url.pathname.slice(1) : '';
     if (!key) {
       // 無効なURL
-      console.log('can not create key: ' + url);
       return undefined;
     }
     // 以下Redis操作
@@ -49,35 +47,32 @@ export default class Resource {
     if (await redis.exists(key)) {
       return '';
     }
-    // ここまでは await でIO保持
+    // 以下fetch
+    const response = await fetch(target).catch(error => console.error(error));
+    if (!response) {
+      return undefined;
+    } else if (!response.ok) {
+      console.log(`[${response.status} ${response.statusText}] url: ${response.url}`);
+      return undefined;
+    }
 
-    // ここから fetch 等するので promise でIOを離す
-    fetch(target)
-      .then(response => {
-        if (!response.ok) {
-          // エラー表示
-          console.log('error: ' + response.toString());
-          throw new Error(response.toString());
-        }
-        const readable = response.body;
-        const obj = bucket.file(key);
-        const writable = obj.createWriteStream();
+    const readable = response.body;
+    const obj = bucket.file(key);
+    const writable = obj.createWriteStream();
 
-        if (readable && writable) {
-          readable.pipe(writable);
-          // オブジェクト書き込みが完了した時のみ Redis にキー設定
-          redis.set(key, key).then(status => {
-            if (status !== 'OK') {
-              console.log(`Failed to set "${key}". (status: ${status})`);
-              throw new Error(`Failed to set "${key}". (status: ${status})`);
-            }
-          });
+    if (!readable || !writable) {
+      return undefined;
+    } else {
+      readable.pipe(writable);
+      // オブジェクト書き込みが完了した時のみ Redis にキー設定
+      redis.set(key, key).then(status => {
+        if (status !== 'OK') {
+          console.log(`Failed to set "${key}". (status: ${status})`);
+          return undefined;
         }
-      })
-      .catch(error => {
-        console.error(error);
       });
-    return strUrl;
+    }
+    return target;
   }
 
   /**
