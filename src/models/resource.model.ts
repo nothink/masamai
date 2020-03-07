@@ -31,7 +31,6 @@ export default class Resource {
   static async sync(strUrl: string): Promise<string | undefined> {
     const url = new URL(strUrl);
     // URLチェック
-    console.log(url);
     const validDomains = ['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'];
     if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
       // 無効なURL
@@ -41,6 +40,8 @@ export default class Resource {
     // オブジェクトキー作成
     const key = url.pathname.length > 0 && url.pathname.slice(0, 1) === '/' ? url.pathname.slice(1) : '';
     if (!key) {
+      // 無効なURL
+      console.log('can not create key: ' + url);
       return;
     }
     // 以下Redis操作
@@ -53,6 +54,8 @@ export default class Resource {
     // ここから fetch 等するので promise でIOを離す
     fetch(target).then(response => {
       if (!response.ok) {
+        // エラー表示
+        console.log('error: ' + response.toString());
         throw new Error(response.toString());
       }
       const readable = response.body;
@@ -64,6 +67,7 @@ export default class Resource {
         // オブジェクト書き込みが完了した時のみ Redis にキー設定
         redis.set(key, key).then(status => {
           if (status !== 'OK') {
+            console.log(`Failed to set "${key}". (status: ${status})`);
             throw new Error(`Failed to set "${key}". (status: ${status})`);
           }
         });
