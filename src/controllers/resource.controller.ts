@@ -29,8 +29,6 @@ export class ResourceController {
       const result = await Resource.sync(key);
       if (result) {
         news.push(result as string);
-      } else if (result !== '') {
-        console.log(`result=${result}: ${key}`);
       }
     }
     if (news.length > 0) {

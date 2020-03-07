@@ -52,7 +52,7 @@ export default class Resource {
     if (!response) {
       return undefined;
     } else if (!response.ok) {
-      console.log(`[${response.status} ${response.statusText}] url: ${response.url}`);
+      console.error(`[${response.status} ${response.statusText}] url: ${response.url}`);
       return undefined;
     }
 
@@ -67,7 +67,7 @@ export default class Resource {
       // オブジェクト書き込みが完了した時のみ Redis にキー設定
       redis.set(key, key).then(status => {
         if (status !== 'OK') {
-          console.log(`Failed to set "${key}". (status: ${status})`);
+          console.error(`Failed to set "${key}". (status: ${status})`);
           return undefined;
         }
       });

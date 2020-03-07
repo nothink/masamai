@@ -2,8 +2,8 @@ version: '3.1'
 
 services:
 
-  https-portal:
-    container_name: "https-portal"
+  https-p:
+    container_name: "https-p"
     image: "steveltn/https-portal:latest"
     ports:
       - "80:80"
