@@ -27,10 +27,10 @@ export class ResourceController {
     const news: string[] = [];
     for (const key of resources.urls) {
       const result = await Resource.sync(key);
-      if (!result) {
-        console.log(`undefined. (key: ${key})`);
-      } else {
+      if (result) {
         news.push(result as string);
+      } else if (result !== '') {
+        console.log(`result=${result}: ${key}`);
       }
     }
     if (news.length > 0) {

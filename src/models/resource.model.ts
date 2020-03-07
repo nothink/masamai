@@ -35,44 +35,48 @@ export default class Resource {
     if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
       // 無効なURL
       console.log('invalid URL: ' + url);
-      return;
+      return undefined;
     }
     // オブジェクトキー作成
     const key = url.pathname.length > 0 && url.pathname.slice(0, 1) === '/' ? url.pathname.slice(1) : '';
     if (!key) {
       // 無効なURL
       console.log('can not create key: ' + url);
-      return;
+      return undefined;
     }
     // 以下Redis操作
     const target = url.origin + url.pathname;
     if (await redis.exists(key)) {
-      return;
+      return '';
     }
     // ここまでは await でIO保持
 
     // ここから fetch 等するので promise でIOを離す
-    fetch(target).then(response => {
-      if (!response.ok) {
-        // エラー表示
-        console.log('error: ' + response.toString());
-        throw new Error(response.toString());
-      }
-      const readable = response.body;
-      const obj = bucket.file(key);
-      const writable = obj.createWriteStream();
+    fetch(target)
+      .then(response => {
+        if (!response.ok) {
+          // エラー表示
+          console.log('error: ' + response.toString());
+          throw new Error(response.toString());
+        }
+        const readable = response.body;
+        const obj = bucket.file(key);
+        const writable = obj.createWriteStream();
 
-      if (readable && writable) {
-        readable.pipe(writable);
-        // オブジェクト書き込みが完了した時のみ Redis にキー設定
-        redis.set(key, key).then(status => {
-          if (status !== 'OK') {
-            console.log(`Failed to set "${key}". (status: ${status})`);
-            throw new Error(`Failed to set "${key}". (status: ${status})`);
-          }
-        });
-      }
-    });
+        if (readable && writable) {
+          readable.pipe(writable);
+          // オブジェクト書き込みが完了した時のみ Redis にキー設定
+          redis.set(key, key).then(status => {
+            if (status !== 'OK') {
+              console.log(`Failed to set "${key}". (status: ${status})`);
+              throw new Error(`Failed to set "${key}". (status: ${status})`);
+            }
+          });
+        }
+      })
+      .catch(error => {
+        console.error(error);
+      });
     return strUrl;
   }
 
