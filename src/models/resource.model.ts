@@ -11,6 +11,14 @@ const redis = new Redis({
   host: process.env.NODE_REDIS_HOST,
   db: process.env.NODE_REDIS_RESOURCES_DB ? parseInt(process.env.NODE_REDIS_RESOURCES_DB as string) : undefined,
 });
+const redisFailed = new Redis({
+  port: process.env.NODE_REDIS_PORT ? parseInt(process.env.NODE_REDIS_PORT as string) : undefined,
+  host: process.env.NODE_REDIS_HOST,
+  db: process.env.NODE_REDIS_RESOURCES_FAILED_DB
+    ? parseInt(process.env.NODE_REDIS_RESOURCES_FAILED_DB as string)
+    : undefined,
+});
+
 // Google Storage
 const bucket = new Storage({
   keyFilename: process.env.NODE_GS_KEY_FILE_PATH,
@@ -34,26 +42,30 @@ export default class Resource {
     const validDomains = ['c.stat100.ameba.jp', 'stat100.ameba.jp', 'dqx9mbrpz1jhx.cloudfront.net'];
     if (!url || !validDomains.includes(url.hostname) || url.pathname.slice(0, 7) !== '/vcard/') {
       // 無効なURL
-      return undefined;
+      return;
     }
     // オブジェクトキー作成
     const key = url.pathname.length > 0 && url.pathname.slice(0, 1) === '/' ? url.pathname.slice(1) : '';
     if (!key) {
       // 無効なURL
-      return undefined;
+      return;
     }
     // 以下Redis操作
     const target = url.origin + url.pathname;
     if (await redis.exists(key)) {
-      return '';
+      return;
+    }
+    if (await redisFailed.exists(key)) {
+      return;
     }
     // 以下fetch
     const response = await fetch(target).catch(error => console.error(error));
     if (!response) {
-      return undefined;
+      return;
     } else if (!response.ok) {
       console.error(`[${response.status} ${response.statusText}] url: ${response.url}`);
-      return undefined;
+      redisFailed.set(key, response.status);
+      return;
     }
 
     const readable = response.body;
@@ -68,7 +80,7 @@ export default class Resource {
       redis.set(key, key).then(status => {
         if (status !== 'OK') {
           console.error(`Failed to set "${key}". (status: ${status})`);
-          return undefined;
+          return;
         }
       });
     }
