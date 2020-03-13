@@ -11,7 +11,8 @@ module.exports = {
   //     statements: 100,
   //   },
   // },
-  coverageReporters: ['text', 'text-summary'],
+  coverageReporters: ['json', 'text', 'text-summary', 'lcov', 'clover'],
+  coverageDirectory: './coverage/',
   transform: {
     '^.+\\.ts$': 'ts-jest',
   },
