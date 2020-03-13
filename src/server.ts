@@ -1,20 +1,8 @@
-import 'reflect-metadata';
-
-import Koa from 'koa';
-import { createKoaServer } from 'routing-controllers';
-import logger from 'koa-logger';
-import cors from '@koa/cors';
-
-import { UserController } from './controllers/user.controller';
-import { ResourceController } from './controllers/resource.controller';
+import app from './app';
 import './env';
 
-const app = createKoaServer({
-  controllers: [UserController, ResourceController],
-  routePrefix: process.env.NODE_KOA_ROUTE_PREFIX,
-}) as Koa;
+const port = parseInt(process.env.NODE_KOA_LISTEN_PORT as string) || 3000;
 
-app.use(logger());
-app.use(cors());
-
-app.listen(parseInt(process.env.NODE_KOA_LISTEN_PORT as string));
+app.listen(port);
+// TODO: console出力周り(Docker前提)をどう配慮するか要検討
+// console.log(`start koa server listening to ${port}`);

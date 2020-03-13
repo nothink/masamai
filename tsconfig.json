@@ -17,7 +17,7 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {},
-    "types": [],
+    "types": ["jest"],
     "esModuleInterop": true,
 
     "emitDecoratorMetadata": true,
@@ -25,6 +25,6 @@
 
     "resolveJsonModule": true
   },
-  "include": ["src/*.ts", "src/**/*.ts"],
+  "include": ["src/*.ts", "src/**/*.ts", "test/*.spec.ts", "test/**/*.spec.ts"],
   "exclude": ["node_modules", "dist"]
 }
