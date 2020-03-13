@@ -22,10 +22,12 @@ describe('routes of Resource', () => {
     delete process.env.NODE_GS_BUCKET_NAME;
     // TODO: Resourceモデルのモックをセットする方法を調べる
   });
+
   afterAll(async () => {
     // TODO: ここでモックをリセット
     process.env = OLD_ENV;
   });
+
   test('get all using /resources', async done => {
     // TODO: モック作る
     // const redis = new Redis({

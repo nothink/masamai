@@ -211,15 +211,15 @@ export class ResourceController {
    * 追加されたURLのメールをMailgunで送る
    * @param adds 追加されたURL一覧
    */
-  private sendMail(adds: string[]) {
+  private sendMail(adds: string[]): void {
     if (adds && adds.length > 0) {
-      const apiKey = process.env.NODE_MAILGUN_APIKEY as string;
-      const domain = process.env.NODE_MAILGUN_DOMAIN as string;
-      const mailfromto = process.env.NODE_MAIL_FROM_TO as string;
+      const apiKey = process.env.NODE_MAILGUN_APIKEY || '';
+      const domain = process.env.NODE_MAILGUN_DOMAIN || '';
+      const mailfromto = process.env.NODE_MAIL_FROM_TO || '';
 
       const mailgun = new Mailgun({ apiKey: apiKey, domain: domain });
       const bodypug = pug.compileFile(
-        process.env.NODE_RESOURCE_MAIL_PUG_PATH as string
+        process.env.NODE_RESOURCE_MAIL_PUG_PATH || ''
       );
 
       mailgun.messages().send({

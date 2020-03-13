@@ -7,28 +7,20 @@ import '../env';
 // 以下はコントローラ読み込み時に単一でインスタンス確保される
 // Redis
 const redis = new Redis({
-  port: process.env.NODE_REDIS_PORT
-    ? parseInt(process.env.NODE_REDIS_PORT as string)
-    : undefined,
+  port: Number(process.env.NODE_REDIS_PORT) || undefined,
   host: process.env.NODE_REDIS_HOST,
-  db: process.env.NODE_REDIS_RESOURCES_DB
-    ? parseInt(process.env.NODE_REDIS_RESOURCES_DB as string)
-    : undefined,
+  db: Number(process.env.NODE_REDIS_RESOURCES_DB) || undefined,
 });
 const redisFailed = new Redis({
-  port: process.env.NODE_REDIS_PORT
-    ? parseInt(process.env.NODE_REDIS_PORT as string)
-    : undefined,
+  port: Number(process.env.NODE_REDIS_PORT) || undefined,
   host: process.env.NODE_REDIS_HOST,
-  db: process.env.NODE_REDIS_RESOURCES_FAILED_DB
-    ? parseInt(process.env.NODE_REDIS_RESOURCES_FAILED_DB as string)
-    : undefined,
+  db: Number(process.env.NODE_REDIS_RESOURCES_FAILED_DB) || undefined,
 });
 
 // Google Storage
 const bucket = new Storage({
   keyFilename: process.env.NODE_GS_KEY_FILE_PATH,
-}).bucket(process.env.NODE_GS_BUCKET_NAME as string);
+}).bucket(process.env.NODE_GS_BUCKET_NAME || 'verenav');
 
 const CARD_KEY_BASE = 'vcard/ratio20/images/card/';
 const HASH_LENGTH = 32;

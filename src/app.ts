@@ -11,7 +11,7 @@ import './env';
 
 const app = createKoaServer({
   controllers: [ResourceController],
-  routePrefix: process.env.NODE_KOA_ROUTE_PREFIX,
+  routePrefix: process.env.NODE_KOA_ROUTE_PREFIX || '',
 }) as Koa;
 
 // app.use(logger());
