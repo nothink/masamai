@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { JsonController, Body, Get, Post, HttpCode } from 'routing-controllers';
 import Mailgun from 'mailgun-js';
 import pug from 'pug';
@@ -23,7 +22,9 @@ export class ResourceController {
    */
   @HttpCode(202)
   @Post('/resources')
-  async post(@Body() resources: { urls: string[] }): Promise<{ added: string[] }> {
+  async post(
+    @Body() resources: { urls: string[] }
+  ): Promise<{ added: string[] }> {
     const news: string[] = [];
     for (const key of resources.urls) {
       const result = await Resource.sync(key);
@@ -217,7 +218,9 @@ export class ResourceController {
       const mailfromto = process.env.NODE_MAIL_FROM_TO as string;
 
       const mailgun = new Mailgun({ apiKey: apiKey, domain: domain });
-      const bodypug = pug.compileFile(process.env.NODE_RESOURCE_MAIL_PUG_PATH as string);
+      const bodypug = pug.compileFile(
+        process.env.NODE_RESOURCE_MAIL_PUG_PATH as string
+      );
 
       mailgun.messages().send({
         from: mailfromto,
