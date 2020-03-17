@@ -26,6 +26,7 @@
     "@typegoose/typegoose": "^6.3.2",
     "class-transformer": "^0.2.3",
     "class-validator": "0.10.1",
+    "consola": "^2.11.3",
     "core-js": "^3.6.4",
     "dotenv": "^8.2.0",
     "grant-koa": "^4.7.0",

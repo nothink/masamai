@@ -1,6 +1,7 @@
 import { JsonController, Body, Get, Post, HttpCode } from 'routing-controllers';
 import Mailgun from 'mailgun-js';
 import pug from 'pug';
+import consola from 'consola';
 
 import Resource from '../models/resource.model';
 
@@ -24,18 +25,18 @@ export class ResourceController {
   @Post('/resources')
   async post(
     @Body() resources: { urls: string[] }
-  ): Promise<{ added: string[] }> {
-    const news: string[] = [];
-    for (const key of resources.urls) {
-      const result = await Resource.sync(key);
-      if (result) {
-        news.push(result as string);
+  ): Promise<{ status: string }> {
+    new Promise(() => {
+      const news = resources.urls.filter(async url => {
+        const result = await Resource.sync(url);
+        return result != undefined;
+      });
+      if (news.length > 0) {
+        this.sendMail(news);
+        consola.success(news);
       }
-    }
-    if (news.length > 0) {
-      this.sendMail(news);
-    }
-    return { added: news };
+    });
+    return { status: 'OK' };
   }
 
   /**
