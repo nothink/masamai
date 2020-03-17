@@ -30,7 +30,10 @@ export class ResourceController {
       const news = syncers.filter(result => result) as string[];
       if (news.length > 0) {
         this.sendMail(news);
-        consola.success(new Date(), news);
+        consola.success(
+          new Intl.DateTimeFormat('ja-JP').format(new Date()),
+          news
+        );
       }
     });
     return { status: 'OK' };
