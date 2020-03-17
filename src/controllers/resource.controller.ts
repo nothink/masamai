@@ -31,7 +31,10 @@ export class ResourceController {
       if (news.length > 0) {
         this.sendMail(news);
         consola.success(
-          new Intl.DateTimeFormat('ja-JP').format(new Date()),
+          new Intl.DateTimeFormat('ja-JP', {
+            formatMatcher: 'basic',
+            timeZone: 'Asia/Tokyo',
+          }).format(new Date()),
           news
         );
       }
