@@ -1,6 +1,6 @@
 # https://github.com/kenji4569/typescript-node-docker
 # Base
-FROM node:13.7.0-alpine3.11 as base
+FROM node:13.10.1-alpine3.11 as base
 # ALERT: 上記 alpine3.11 は yarn が古いので sha.js の実行ファイルチェックに失敗する
 RUN mkdir -p /app
 ENV APP_ROOT=/app
