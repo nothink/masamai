@@ -26,14 +26,11 @@ export class ResourceController {
   async post(
     @Body() resources: { urls: string[] }
   ): Promise<{ status: string }> {
-    new Promise(() => {
-      const news = resources.urls.filter(async url => {
-        const result = await Resource.sync(url);
-        return result != undefined;
-      });
+    Promise.all(resources.urls.map(url => Resource.sync(url))).then(syncers => {
+      const news = syncers.filter(result => result) as string[];
       if (news.length > 0) {
         this.sendMail(news);
-        consola.success(`success: ${news}`);
+        consola.success(news);
       }
     });
     return { status: 'OK' };
