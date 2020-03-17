@@ -33,7 +33,7 @@ export class ResourceController {
       });
       if (news.length > 0) {
         this.sendMail(news);
-        consola.success(news);
+        consola.success(`success: ${news}`);
       }
     });
     return { status: 'OK' };
