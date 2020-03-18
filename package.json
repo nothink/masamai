@@ -36,6 +36,7 @@
     "koa-logger": "^3.2.1",
     "koa-router": "^8.0.0-alpha.1",
     "mailgun-js": "^0.22.0",
+    "moment": "^2.24.0",
     "mongoose": "^5.8.11",
     "multer": "^1.4.2",
     "pug": "^2.0.4",

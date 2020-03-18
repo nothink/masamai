@@ -1,6 +1,7 @@
 import { JsonController, Body, Get, Post, HttpCode } from 'routing-controllers';
 import Mailgun from 'mailgun-js';
 import pug from 'pug';
+import moment from 'moment';
 import consola from 'consola';
 
 import Resource from '../models/resource.model';
@@ -30,13 +31,7 @@ export class ResourceController {
       const news = syncers.filter(result => result) as string[];
       if (news.length > 0) {
         this.sendMail(news);
-        consola.success(
-          new Intl.DateTimeFormat('ja-JP', {
-            formatMatcher: 'basic',
-            timeZone: 'Asia/Tokyo',
-          }).format(new Date()),
-          news
-        );
+        consola.success(moment().format(), news);
       }
     });
     return { status: 'OK' };
