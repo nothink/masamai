@@ -31,7 +31,7 @@ export class ResourceController {
       const news = syncers.filter(result => result) as string[];
       if (news.length > 0) {
         this.sendMail(news);
-        consola.success(moment().format(), news);
+        consola.success(moment().format('YYYY/MM/DD HH:mm:ss.SS (Z)'), news);
       }
     });
     return { status: 'OK' };
