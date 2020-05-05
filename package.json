@@ -23,7 +23,7 @@
     "@koa/cors": "^3.0.0",
     "@koa/multer": "^2.0.2",
     "@koa/router": "^8.0.8",
-    "@typegoose/typegoose": "^6.3.2",
+    "@typegoose/typegoose": "^7.0.0",
     "class-transformer": "^0.2.3",
     "class-validator": "0.10.1",
     "consola": "^2.11.3",
