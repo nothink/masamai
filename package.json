@@ -81,7 +81,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "yarn test:unit; pretty-quick --staged"
     }
   },
   "optionalDependencies": {

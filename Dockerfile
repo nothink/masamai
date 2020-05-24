@@ -1,7 +1,6 @@
 # https://github.com/kenji4569/typescript-node-docker
 # Base
-FROM node:13.10.1-alpine3.11 as base
-# ALERT: 上記 alpine3.11 は yarn が古いので sha.js の実行ファイルチェックに失敗する
+FROM node:14.3.0-alpine3.11 as base
 RUN mkdir -p /app
 ENV APP_ROOT=/app
 WORKDIR ${APP_ROOT}
@@ -21,16 +20,16 @@ RUN yarn lint && \
     yarn build && \
     rm -r node_modules yarn.lock && \
     yarn install --production=true && \
-    mkdir /atmp && \
-    mv node_modules /atmp && \
-    mv package.json /atmp && \
-    mv .env /atmp && \
-    mv config /atmp && \
-    mv templates /atmp && \
-    mv dist /atmp
+    mkdir /build && \
+    mv node_modules /build && \
+    mv package.json /build && \
+    mv .env /build && \
+    mv config /build && \
+    mv templates /build && \
+    mv dist /build
 
 # Release
 FROM base AS release
 ENV NODE_ENV=production
-COPY --from=builder /atmp /app
+COPY --from=builder /build /app
 CMD ["yarn", "start"]
