@@ -4,7 +4,6 @@ import 'reflect-metadata';
 // import Redis from 'ioredis-mock';
 // import * as request from 'supertest';
 
-import '../../env';
 import app from '../../app';
 
 describe('routes of Resource', () => {
@@ -28,7 +27,7 @@ describe('routes of Resource', () => {
     process.env = OLD_ENV;
   });
 
-  test('get all using /resources', async done => {
+  test('get all using /resources', async (done) => {
     // TODO: モック作る
     // const redis = new Redis({
     //   data: { data01: 'data01', data02: 'data02' },

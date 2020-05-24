@@ -8,7 +8,6 @@ WORKDIR ${APP_ROOT}
 # Pre-Builder
 FROM base AS prebuilder
 COPY package.json package.json
-COPY .env .env
 RUN yarn install --production=false
 
 # Builder
@@ -23,7 +22,6 @@ RUN yarn lint && \
     mkdir /build && \
     mv node_modules /build && \
     mv package.json /build && \
-    mv .env /build && \
     mv config /build && \
     mv templates /build && \
     mv dist /build

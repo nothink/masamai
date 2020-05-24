@@ -1,5 +1,4 @@
 import app from '../app';
-import '../env';
 
 // memo: https://medium.com/scrum-ai/4-testing-koa-server-with-jest-week-5-8e980cd30527
 describe('Server mock tests.', () => {

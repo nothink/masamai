@@ -1,5 +1,4 @@
 import app from './app';
-import './env';
 
 const port = Number(process.env.NODE_KOA_LISTEN_PORT) || 3000;
 

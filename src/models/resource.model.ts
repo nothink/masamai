@@ -2,8 +2,6 @@ import fetch from 'node-fetch';
 import Redis from 'ioredis';
 import { Storage } from '@google-cloud/storage';
 
-import '../env';
-
 // 以下はコントローラ読み込み時に単一でインスタンス確保される
 // Redis
 const redis = new Redis({
@@ -19,7 +17,13 @@ const redisFailed = new Redis({
 
 // Google Storage
 const bucket = new Storage({
-  keyFilename: process.env.NODE_GS_KEY_FILE_PATH,
+  projectId: process.env.NODE_GS_PROJECT_ID,
+  credentials: {
+    // eslint-disable-next-line @typescript-eslint/camelcase
+    client_email: process.env.NODE_GS_CLIENT_EMAIL,
+    // eslint-disable-next-line @typescript-eslint/camelcase
+    private_key: process.env.NODE_GS_PRIVATE_KEY,
+  },
 }).bucket(process.env.NODE_GS_BUCKET_NAME || 'verenav');
 
 const CARD_KEY_BASE = 'vcard/ratio20/images/card/';
@@ -68,7 +72,7 @@ export default class Resource {
       return;
     }
     // 以下fetch
-    const response = await fetch(target).catch(error => console.error(error));
+    const response = await fetch(target).catch((error) => console.error(error));
     if (!response) {
       return;
     } else if (!response.ok) {
@@ -88,7 +92,7 @@ export default class Resource {
     } else {
       readable.pipe(writable);
       // オブジェクト書き込みが完了した時のみ Redis にキー設定
-      redis.set(key, key).then(status => {
+      redis.set(key, key).then((status) => {
         if (status !== 'OK') {
           console.error(`Failed to set "${key}". (status: ${status})`);
           return;
@@ -116,11 +120,11 @@ export default class Resource {
 
     const keys = await redis.keys(CARD_KEY_BASE + relativePath + '*' + ext);
     return keys
-      .filter(key => {
+      .filter((key) => {
         // このテストが通らない場合はパス文字列が別形式なので対象外
         return HASH_LEGEX.test(key.slice(start, start + HASH_LENGTH));
       })
-      .map(key => {
+      .map((key) => {
         return key.slice(start, start + HASH_LENGTH);
       })
       .sort();

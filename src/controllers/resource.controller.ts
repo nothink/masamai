@@ -6,8 +6,6 @@ import consola from 'consola';
 
 import Resource from '../models/resource.model';
 
-import '../env';
-
 /**
  * vcardサーバから取得したリソースを管理するルーティングコントローラ
  */
@@ -27,13 +25,15 @@ export class ResourceController {
   async post(
     @Body() resources: { urls: string[] }
   ): Promise<{ status: string }> {
-    Promise.all(resources.urls.map(url => Resource.sync(url))).then(syncers => {
-      const news = syncers.filter(result => result) as string[];
-      if (news.length > 0) {
-        this.sendMail(news);
-        consola.success(moment().format('YYYY/MM/DD HH:mm:ss.SS (Z)'), news);
+    Promise.all(resources.urls.map((url) => Resource.sync(url))).then(
+      (syncers) => {
+        const news = syncers.filter((result) => result) as string[];
+        if (news.length > 0) {
+          this.sendMail(news);
+          consola.success(moment().format('YYYY/MM/DD HH:mm:ss.SS (Z)'), news);
+        }
       }
-    });
+    );
     return { status: 'OK' };
   }
 

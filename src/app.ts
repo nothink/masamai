@@ -7,7 +7,6 @@ import cors from '@koa/cors';
 
 // import { UserController } from './controllers/user.controller';
 import { ResourceController } from './controllers/resource.controller';
-import './env';
 
 const app = createKoaServer({
   controllers: [ResourceController],
