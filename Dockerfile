@@ -22,7 +22,6 @@ RUN yarn lint && \
     mkdir /build && \
     mv node_modules /build && \
     mv package.json /build && \
-    mv config /build && \
     mv templates /build && \
     mv dist /build
 

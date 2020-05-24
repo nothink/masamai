@@ -15,15 +15,14 @@ const redisFailed = new Redis({
   db: Number(process.env.NODE_REDIS_RESOURCES_FAILED_DB) || undefined,
 });
 
-// Google Storage の cred を base64で
+// Google Storage
+// Google Storage の credential.json を base64で
 let buf: Buffer;
 if (process.env.NODE_GS_CRED_BASE64) {
   buf = Buffer.from(process.env.NODE_GS_CRED_BASE64, 'base64');
 } else {
   buf = Buffer.from('{}');
 }
-
-// Google Storage
 const bucket = new Storage({
   credentials: JSON.parse(buf.toString('ascii')),
 }).bucket(process.env.NODE_GS_BUCKET_NAME || 'verenav');
