@@ -15,15 +15,12 @@ const redisFailed = new Redis({
   db: Number(process.env.NODE_REDIS_RESOURCES_FAILED_DB) || undefined,
 });
 
+// Google Storage の cred を base64で
+const buf = new Buffer(process.env.NODE_GS_CRED_BASE64 as string, 'base64');
+
 // Google Storage
 const bucket = new Storage({
-  projectId: process.env.NODE_GS_PROJECT_ID,
-  credentials: {
-    // eslint-disable-next-line @typescript-eslint/camelcase
-    client_email: process.env.NODE_GS_CLIENT_EMAIL,
-    // eslint-disable-next-line @typescript-eslint/camelcase
-    private_key: process.env.NODE_GS_PRIVATE_KEY,
-  },
+  credentials: JSON.parse(buf.toString('ascii')),
 }).bucket(process.env.NODE_GS_BUCKET_NAME || 'verenav');
 
 const CARD_KEY_BASE = 'vcard/ratio20/images/card/';
