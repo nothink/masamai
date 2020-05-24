@@ -16,7 +16,12 @@ const redisFailed = new Redis({
 });
 
 // Google Storage の cred を base64で
-const buf = new Buffer(process.env.NODE_GS_CRED_BASE64 as string, 'base64');
+let buf: Buffer;
+if (process.env.NODE_GS_CRED_BASE64) {
+  buf = Buffer.from(process.env.NODE_GS_CRED_BASE64, 'base64');
+} else {
+  buf = Buffer.from('{}');
+}
 
 // Google Storage
 const bucket = new Storage({
