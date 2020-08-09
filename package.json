@@ -1,10 +1,10 @@
 {
-  "name": "project2",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "name": "masamai",
+  "version": "0.2.0",
+  "description": "Masaoka Mai",
+  "author": "nothink<gakongakon@gmail.com>",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
